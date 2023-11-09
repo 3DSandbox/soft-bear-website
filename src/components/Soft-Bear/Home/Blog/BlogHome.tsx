@@ -7,7 +7,9 @@ import { FC, useEffect } from 'react';
 const BlogHome: FC = () => {
     return (
         <div className="container">
-        <h2 className="text-center text-main mt-7 display-6">Blogs</h2>
+        <h2 className="text-center text-main mt-7 display-6"  data-aos="fade-down"
+              data-aos-duration="800"
+              data-aos-delay="100">Blogs</h2>
         <div className="cotainer">
           <div className="row mt-5 pb-10 d-flex justify-content-center align-items-center" >
            

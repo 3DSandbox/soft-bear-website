@@ -1,6 +1,6 @@
 import { FC, Fragment, useEffect } from 'react';
 // -------- data -------- //
-import { categoryList } from 'data/3DTVTech/categoryList';
+import { categoryList } from 'data/Soft-Bear/categoryList';
 import Image from 'next/image';
 import Link from 'next/link';
 

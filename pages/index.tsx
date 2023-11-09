@@ -1,28 +1,31 @@
 import { Fragment, useEffect } from 'react';
 // -------- custom component -------- //
-import NavbarMain from 'components/3DTVTech/NavbarMain';
+
 import { BannerMain } from 'components/blocks/hero';
 import PageProgress from 'components/common/PageProgress';
 
-import FooterMain from 'components/3DTVTech/FooterMain';
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
-import WhoweareComp from 'components/3DTVTech/Home/Whoyouare/whoyouare';
 
 import { GoogleAnalytics } from 'nextjs-google-analytics';
 import Head from 'next/head';
 import { NextPage } from 'next/types';
-import TechnologyConsulting from 'components/3DTVTech/Home/Category/TechnologyConsulting';
-import CaseStudy from 'components/3DTVTech/Home/Service/CaseStudy';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { BLOGMOCK, INTERACTIVE } from 'assets';
 import { Icon } from '@iconify/react';
 import NextLink from 'components/reuseable/links/NextLink';
 import FigureImage from 'components/reuseable/FigureImage';
-import BlogHome from 'components/3DTVTech/Home/Blog/BlogHome';
+import NavbarMain from 'components/Soft-Bear/NavbarMain';
+import TechnologyConsulting from 'components/Soft-Bear/Home/Category/TechnologyConsulting';
+import CaseStudy from 'components/Soft-Bear/Home/Service/CaseStudy';
+import BlogHome from 'components/Soft-Bear/Home/Blog/BlogHome';
+import FooterMain from 'components/Soft-Bear/FooterMain';
+
 
 // ..
 

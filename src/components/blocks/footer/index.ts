@@ -20,7 +20,7 @@ import Footer19 from './Footer19';
 import Footer20 from './Footer20';
 import Footer21 from './Footer21';
 import Footer22 from './Footer22';
-import FooterMain from '../../3DTVTech/FooterMain';
+import FooterMain from '../../Soft-Bear/FooterMain';
 
 export {
   Footer1,

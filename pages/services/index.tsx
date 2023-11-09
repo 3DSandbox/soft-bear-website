@@ -2,18 +2,16 @@ import { NextPage } from 'next';
 import { Fragment, useEffect } from 'react';
 // -------- custom component -------- //
 import PageProgress from 'components/common/PageProgress';
-import NavbarMain from 'components/3DTVTech/NavbarMain';
 
-import FooterMain from 'components/3DTVTech/FooterMain';
-import ServicesFooter from 'components/3DTVTech/Services/services-foot';
-
-import ServicesHero from 'components/3DTVTech/Services/services-hero';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import Head from 'next/head';
 import ServicesMain from '../services-main';
+import NavbarMain from 'components/Soft-Bear/NavbarMain';
+import ServicesHero from 'components/Soft-Bear/Services/services-hero';
+import FooterMain from 'components/Soft-Bear/FooterMain';
 // ..
 
 const Page: NextPage = () => {
