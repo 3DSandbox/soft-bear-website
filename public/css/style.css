@@ -44062,9 +44062,9 @@ footer.bg-dark.angled.lower-start:after, footer.bg-dark.angled.upper-start:befor
 }
 
 
-.text-main{
+/* .text-main{
   color: #3175D1 !important;
-}
+} */
 
 /* width */
 ::-webkit-scrollbar {

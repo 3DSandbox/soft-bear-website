@@ -3,37 +3,37 @@ import { COMPANY, EVENT, MUSEUM, SCHOOL } from 'assets';
 const categoryList = [
     {
       id: 1,
-      title: 'Company / Business Organization',
+      title: 'Software Solution',
     //   image: '/img/photos/3DTVTech/home/icon/ic_company.png',
       image: COMPANY.src,
-      type: 'company',
+      type: 'Software Solution',
     //   url: '/3DTVTech/demo-j-company'
     }
     ,
     {
         id: 2,
-        title: 'Event Agency',
+        title: 'Data Service',
         // image: '/img/photos/3DTVTech/home/icon/ic_event.png',
         image: EVENT.src,
-        type: 'event',
+        type: 'Data Service',
         // url: '/3DTVTech/demo-j-eventagency'
     }
     ,
 
     {
         id: 3,
-        title: 'Museum / Art Gallery',
+        title: 'IOT',
         // image: '/img/photos/3DTVTech/home/icon/ic_museum.png',
         image: MUSEUM.src,
-        type: 'museum',
+        type: 'IOT',
         // url: '/3DTVTech/demo-j-meuseumart'
     },
     {
         id:4    ,
-        title: 'School / Educational Organization',
+        title: 'Artificial Intelligence (AI)',
         // image: '/img/photos/3DTVTech/home/icon/ic_school.png',
         image: SCHOOL.src,
-        type: 'school',
+        type: 'Artificial Intelligence (AI)',
         // url: '/3DTVTech/demo-j-schooleducational'
     }
 

@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>3DTV-Tech</title>
+        <title>Soft-Bear</title>
         <meta
           name="description"
           content="เราคือบริษัทผู้พัฒนาสื่อ New Media และพัฒนาระบบออนไลน์ทุกประเภท เพียบพร้อมหลาย Platform ด้วยประสบการณ์อันยาวนานด้านการพัฒนา Hardware และ Sofware."

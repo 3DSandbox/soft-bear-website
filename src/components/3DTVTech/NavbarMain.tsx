@@ -77,7 +77,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
         ></img> */}
 
         <Link href="/">
-          <Image src={LOGO.src} width={188} height={26} alt="3DTV-Tech Logo"></Image>
+          <Image src={LOGO.src} width={192} height={56} alt="3DTV-Tech Logo"></Image>
         </Link>
       </div>
 
@@ -102,13 +102,19 @@ const NavbarMain: FC<NavbarProps> = (props) => {
             {/* ===================== demos nav item ===================== */}
             <li className="nav-item ">
               <Link href="/" className="nav-link m-0 px-5 fs-22 d-md-none " style={{}}>
-                <div className="d-flex align-items-center gap-3">
+                <div className="d-flex align-items-center gap-3 " style={{
+                  color: "#FF8812"
+                }}>
                   <Icon icon="mingcute:home-3-fill" width="25" />
                   Home
                 </div>
               </Link>
 
-              <Link href="/" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px"}}>
+              <Link href="/" className="nav-link m-0 px-5 d-none d-md-block " 
+              style={{
+                fontSize:"18px",
+                color: "#FF8812"
+                }}>
                 Home
               </Link>
             </li>
@@ -116,12 +122,15 @@ const NavbarMain: FC<NavbarProps> = (props) => {
             <li className="nav-item">
               <Link href="/services" className="nav-link  px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3">
-                  <Icon icon="ic:baseline-miscellaneous-services" width="25" />
+                  <Icon icon="ic:baseline-miscellaneous-services" width="25" 
+                  style={{
+                    color: "#FF8812"
+                  }}/>
                   Services
                 </div>
               </Link>
 
-              <Link href="/services" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px"}}>
+              <Link href="/services" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
                 Services
               </Link>
             </li>
@@ -134,15 +143,17 @@ const NavbarMain: FC<NavbarProps> = (props) => {
 
             {/* ===================== blocks nav item ===================== */}
             <li className="nav-item">
-              <Link href="/blogs" className="nav-link m-0 px-5 fs-22 d-md-none">
-                <div className="d-flex align-items-center gap-3">
+              <Link href="#" className="nav-link m-0 px-5 fs-22 d-md-none">
+                <div className="d-flex align-items-center gap-3" style={{
+                  color: "#FF8812" 
+                }}>
                   <Icon icon="mdi:blogger" width="25" />
-                  Blogs
+                  Case Study
                 </div>
               </Link>
 
-              <Link href="/blogs" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px"}}>
-                Blogs
+              <Link href="#" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
+              Case Study
               </Link>
             </li>
 
@@ -150,7 +161,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
             {/* ===================== blocks nav item ===================== */}
 
             {/* ปิดชั่วคราว */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/career" className="nav-link m-0 px-5 fs-22 d-md-none" style={{fontSize:"18px"}}>
                 <div className="d-flex align-items-center gap-3">
                   <Icon icon="material-symbols:info" width="25" />
@@ -161,54 +172,21 @@ const NavbarMain: FC<NavbarProps> = (props) => {
               <Link href="/career" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px"}}>
               Career
               </Link>
-            </li>
-
-
-
-
-            {/* temporary disable */}
-            {/* <li className="nav-item">
-              <Link href="#" className="nav-link px-5 fs-22 d-md-none">
-                <div className="d-flex align-items-center gap-3">
-                  <Icon icon="material-symbols:info" width="25" />
-                  Careers
-                </div>
-              </Link>
-
-              <Link href="#" className="nav-link pm-0 px-5 d-none d-md-block">
-                Careers
-              </Link>
             </li> */}
-
 
 
             <li className="nav-item">
               <Link href="/aboutus" className="nav-link px-5 fs-22 d-md-none">
-                <div className="d-flex align-items-center gap-3">
+                <div className="d-flex align-items-center gap-3" style={{color:"#FF8812"}}>
                   <Icon icon="material-symbols:info" width="25" />
-                  About Us
+                Contact
                 </div>
               </Link>
 
-              <Link href="/aboutus" className="nav-link pm-0 px-5 d-none d-md-block" style={{fontSize:"18px"}}>
-                About Us
+              <Link href="/aboutus" className="nav-link pm-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
+              Contact
               </Link>
-            </li>
-
-            {/* ปิดชั่วคราว */}
-            {/* <li className="nav-item">
-              <Link href="/contactus" className="nav-link px-5 fs-22 d-md-none">
-                <div className="d-flex align-items-center gap-3">
-                  <Icon icon="material-symbols:info" width="25" />
-                  Contact Us
-                </div>
-              </Link>
-
-              <Link href="/contactus" className="nav-link pm-0 px-5 d-none d-md-block">
-                Contact Us
-              </Link>
-            </li> */}
-
+           </li>
           </ul>
         </div>
       </div>

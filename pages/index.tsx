@@ -1,4 +1,4 @@
-import { NextPage } from 'next';
+
 import { Fragment, useEffect } from 'react';
 // -------- custom component -------- //
 import { CategoryHome, ServiceHome } from 'components/3DTVTech';
@@ -13,8 +13,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import WhoweareComp from 'components/3DTVTech/Home/Whoyouare/whoyouare';
-import Head from 'next/head';
+
 import { GoogleAnalytics } from 'nextjs-google-analytics';
+import Head from 'next/head';
+import { NextPage } from 'next/types';
+import TechnologyConsulting from 'components/3DTVTech/Home/Category/CategoryHome';
 
 // ..
 
@@ -37,19 +40,13 @@ const Home: NextPage = () => {
         />
         <meta name="author" content="3DTV-Tech" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* !!!open graph ไม่ยอมอ่าน อ่านแต่ของหน้า _app.tsx */}
-        {/* <meta property="og:url" content="https://3dtv-tech.com/"></meta>
-        <meta property="og:title" content="3DTV-Test"></meta>
-        <meta property="og:description" content="Test"></meta>
-        <meta property="og:image" content="https://cdn.zipeventapp.com/images/web/logo/share.png"></meta> */}
       </Head>
       <GoogleAnalytics gaMeasurementId={process?.env?.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
       <PageProgress />
 
       {/* ========== header ========== */}
       <header className="wrapper bg-soft-primary">
-        {/* เมนูบาร์ backup */}
-        <NavbarMain navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none bg-black bg-opacity-50"></NavbarMain>
+        <NavbarMain navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none bg-light "></NavbarMain>
       </header>
 
       {/* ========== main content ========== */}
@@ -58,105 +55,10 @@ const Home: NextPage = () => {
         <BannerMain />
         <section className="wrapper bg-light angled  ">
           <div className="container">
-            {/* <div className="row  my-6 " data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
-
-              <h1
-                className="col-6 text-main fs-40 text-uppercase mb-0"
-                style={{
-                  fontWeight: 'bold'
-                }}
-              >
-                <b>Who we are</b>
-              </h1>
-              <h1
-                className="col-6mb-3 text-main fs-40"
-                style={{
-                  color: '#C3C3C3',
-                  fontWeight: 'bold'
-                }}
-              >
-                <b>
-                  A NEW MEDIA <br></br>DEVELOPMENT STUDIO
-                </b>
-              </h1>
-              <p className="col-md-6 fs-18">
-                เราคือทีมพัฒนาเทคโนโลยีสมัยใหม่ ด้วยความก้าวหน้าด้านเทคโนโลยี รวมไปถึงการเปลี่ยนแปลงของผู้บริโภค
-                และการเปิดตัวแพลตฟอร์มใหม่ อย่างต่อเนื่อง เราจึงต้องพร้อมและพัฒนาเทคโนยีเพื่อเพิ่มความสามารถ
-                และความโดดเด่นในการแข่งขันในทุกแพลตฟอร์มให้กับลูกค้าอยู่เสมอ
-              </p>
-
-             <div className='col-md-6'></div>
-
-              <p className="col-md-6 fs-18">
-                ด้วยประสบการณ์การพัฒนามีเดียมาอย่างยาวนานและเข้าใจถึงความท้าทายของการแข่งขันในปัจจุบัน
-                เราพร้อมจะก้าวไปข้างหน้าสร้างประสบการณ์ ที่ล้ำสมัยไม่เหมือนใครไปพร้อมกับคุณ
-              </p>
-              <hr
-                className="mt-5 mb-0"
-                style={{
-                  // borderColor: 'lime',
-                  height: '0px',
-                  width: ''
-                }}
-              ></hr>
-            </div> */}
-
-            {/* แบบเก่ารูปยังไม่ตรง */}
-            {/* <div className="row">
-              <div className="col-6">
-                <div className="row  my-6 " data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
-                  <h1
-                    className="col-12 text-main fs-40 text-uppercase mb-0"
-                    style={{
-                      fontWeight: 'bold'
-                    }}
-                  >
-                    <b>Who we are</b>
-                  </h1>
-                  <h1
-                    className="col-12 mb-3 text-main fs-40"
-                    style={{
-                      color: '#C3C3C3',
-                      fontWeight: 'bold'
-                    }}
-                  >
-                    <b>
-                      A NEW MEDIA <br></br>DEVELOPMENT STUDIO
-                    </b>
-                  </h1>
-                  <p className="col-12 fs-18">
-                    เราคือทีมพัฒนาเทคโนโลยีสมัยใหม่ ด้วยความก้าวหน้าด้านเทคโนโลยี รวมไปถึงการเปลี่ยนแปลงของผู้บริโภค
-                    และการเปิดตัวแพลตฟอร์มใหม่ อย่างต่อเนื่อง เราจึงต้องพร้อมและพัฒนาเทคโนยีเพื่อเพิ่มความสามารถ
-                    และความโดดเด่นในการแข่งขันในทุกแพลตฟอร์มให้กับลูกค้าอยู่เสมอ
-                  </p>
-
-                  <div className="col-12"></div>
-
-                  <p className="col-12 fs-18">
-                    ด้วยประสบการณ์การพัฒนามีเดียมาอย่างยาวนานและเข้าใจถึงความท้าทายของการแข่งขันในปัจจุบัน
-                    เราพร้อมจะก้าวไปข้างหน้าสร้างประสบการณ์ ที่ล้ำสมัยไม่เหมือนใครไปพร้อมกับคุณ
-                  </p>
-                  <hr
-                    className="mt-5 mb-0"
-                    style={{
-                      // borderColor: 'lime',
-                      height: '0px',
-                      width: ''
-                    }}
-                  ></hr>
-                </div>
-              </div>
-
-              <div className="col-6">
-                <Image src={WHOWEARE.src} width={645} height={394} alt="coverhome" className="w-100 h-auto" />
-              </div>
-            </div> */}
-
-            {/* แบบใหม่เป็น comp  */}
-            <WhoweareComp />
+           
 
             {/* ========== what we do section ========== */}
-            <CategoryHome />
+            <TechnologyConsulting />
           </div>
           <div
             className="content py-2"
@@ -170,11 +72,10 @@ const Home: NextPage = () => {
           </div>
 
           <div className="">
-            <Blognewshome />
+            {/* <Blognewshome /> */}
           </div>
         </section>
       </main>
-      {/* <h1 className='' data-aos="fade-up">test aos</h1> */}
       {/* ========== footer section ========== */}
       <FooterMain />
     </Fragment>
