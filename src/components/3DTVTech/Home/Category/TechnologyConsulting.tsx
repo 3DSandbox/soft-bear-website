@@ -29,7 +29,7 @@ const TechnologyConsulting: FC = () => {
           </h2>
           <p
             className="fs-18 mt-0 mb-8 mb-md-9 "
-            data-aos="fade-up"
+            data-aos="zoom-up"
             data-aos-duration="800"
             data-aos-delay="500"
             style={{
@@ -41,11 +41,11 @@ const TechnologyConsulting: FC = () => {
         </div>
       </div>
 
-      <div className="row gx-md-0 gy-1 text-center" data-aos="fade-up" data-aos-duration="800">
+      <div className="row gx-md-0 gy-1 text-center gap-1" >
         {categoryList.map((item) => (
           <Link
             href={`../whoyouare/?id=${item.id}`}
-            className="col-md-6 col-lg-4 col-xl-3 col-xxl-3 mx-auto text-center"
+            className="col-md-6 col-lg-4 col-xl-3 col-xxl-3 mx-auto text-center" 
             key={item.id}
           >
             <Image src={item.image} alt={item.title} width={98} height={98} draggable={false} />
@@ -63,7 +63,10 @@ const TechnologyConsulting: FC = () => {
             }}
           ></hr>
             </h3>
-            <p  className='mt-n2'>
+            <p  className='mt-n2' 
+            style={{
+              color: "#737373"
+            }}>
               {item.detail}
             
             </p>

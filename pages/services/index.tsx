@@ -41,9 +41,8 @@ const Page: NextPage = () => {
       <PageProgress />
 
       {/* ========== header ========== */}
-      <header className="wrapper">
-        {/* <NavbarMain navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-light" social /> */}
-        <NavbarMain navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none bg-black bg-opacity-50" />
+      <header className="wrapper ">
+      <NavbarMain navClassName="navbar navbar-expand-lg center-nav  position-absolute bg-white"></NavbarMain>
       </header>
 
       {/* ========== main content ========== */}

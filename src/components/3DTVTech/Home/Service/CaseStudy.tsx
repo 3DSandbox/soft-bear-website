@@ -5,7 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Link from 'next/link';
 import Image from 'next/image';
-import { INTERACTIVE } from 'assets';
+import { BLOGMOCK, CASESTUDY01, CASESTUDY02, INTERACTIVE } from 'assets';
+import FigureImage from 'components/reuseable/FigureImage';
 // ..
 
 const CaseStudy: FC = () => {
@@ -29,89 +30,79 @@ const CaseStudy: FC = () => {
             </h2>
           </div>
         </div>
-        {/* old 3d */}
-        {/* <ServiceSlide /> */}
-        <div className="cotainer">
+        <div className="cotainer mb-10">
           <div className="row d-flex justify-content-center align-items-center">
-            {/* 01 */}
-            <div className="project col-md-6 mb-5 col-xl-3">
+            {/* case01 */}
+            <div className="col-md-3" data-aos="zoom-in" data-aos-duration="800">
               <div
-                className="d-flex flex-column shadow-lg h-100"
-                data-aos="zoom-in"
-                data-aos-duration="1200"
-                data-aos-easing="ease"
+                className="card"
+                style={{
+                  backgroundColor: '#FF8812'
+                }}
               >
-                <figure className="">
-                  <Link href="/services/interactive/">
-                    <Image src={INTERACTIVE} width={285} height={285} alt="Interactive Technology " />
-                  </Link>
+                <figure className="card-img-top  ">
+                  <FigureImage width={285} height={258} src={CASESTUDY01.src} />
                 </figure>
-                <div
-                  className="card-body px-2 py-5 d-flex align-items-center justify-content-center"
-                  style={{
-                    backgroundColor: '#FF8812'
-                  }}
-                >
-                  <Link href="/services/interactive/">
-                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase ">Ice APP</h2>
-                  </Link>
+                <div className="py-4 d-flex justify-content-center align-items-center">
+                  <div
+                    className="fs-22 text-white text-uppercase"
+                    style={{
+                      fontWeight: 600
+                    }}
+                  >
+                    ICE APP
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* 02 */}
-            <div className="project col-md-6 mb-5 col-xl-3">
+            {/* case02 */}
+            <div className="col-md-3" data-aos="zoom-in" data-aos-duration="800">
               <div
-                className="d-flex flex-column shadow-lg h-100"
-                data-aos="zoom-in"
-                data-aos-duration="1200"
-                data-aos-easing="ease"
+                className="card"
+                style={{
+                  backgroundColor: '#FF8812'
+                }}
               >
-                <figure className="">
-                  <Link href="/services/interactive/">
-                    <Image src={INTERACTIVE} width={285} height={285} alt="Interactive Technology " />
-                  </Link>
+                <figure className="card-img-top  ">
+                  <FigureImage width={285} height={258} src={CASESTUDY02.src} />
                 </figure>
-                <div
-                  className="card-body px-2 py-5 d-flex align-items-center justify-content-center"
-                  style={{
-                    backgroundColor: '#FF8812'
-                  }}
-                >
-                  <Link href="/services/interactive/">
-                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase ">Business Matching</h2>
-                  </Link>
+                <div className="py-4 d-flex justify-content-center align-items-center">
+                  <div
+                    className="fs-22 text-white text-uppercase"
+                    style={{
+                      fontWeight: 600
+                    }}
+                  >
+                    Business Matching
+                  </div>
                 </div>
               </div>
             </div>
-          
-          {/* 03 */}
-          <div className="project col-md-6 mb-5 col-xl-3 ">
+
+            {/* case03 */}
+            <div className="col-md-3" data-aos="zoom-in" data-aos-duration="800">
               <div
-                className="d-flex flex-column shadow-lg h-100"
-                data-aos="zoom-in"
-                data-aos-duration="1200"
-                data-aos-easing="ease"
+                className="card"
+                style={{
+                  backgroundColor: '#FF8812'
+                }}
               >
-              
-        
-                <figure className="">
-                  <Link href="/services/interactive/">
-                    <Image src={INTERACTIVE} width={285} height={285} alt="Interactive Technology " />
-                  </Link>
+                <figure className="card-img-top  ">
+                  <FigureImage width={285} height={258} src={CASESTUDY01.src} />
                 </figure>
-                <div className="card-body px-2 py-5 d-flex align-items-center justify-content-center" 
-                style=
-                {{
-                  backgroundColor: "#FF8812"
-                }}>
-                  <Link href="/services/interactive/">
-                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase ">Web3 & Metaverse</h2>
-                  </Link>
+                <div className="py-4 d-flex justify-content-center align-items-center">
+                  <div
+                    className="fs-22 text-white text-uppercase"
+                    style={{
+                      fontWeight: 600
+                    }}
+                  >
+                    Web3 & Metaverse
+                  </div>
                 </div>
               </div>
             </div>
-          
           </div>
         </div>
       </div>

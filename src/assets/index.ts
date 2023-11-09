@@ -585,6 +585,12 @@ import IC_OT from './photos/3DTVTech/career/ic_ot.webp';
 
 export { IC_HEATH01, BANNER25, IC_ALLOWANCE, IC_OT };
 
+//ic  case study
+import CASESTUDY01 from './photos/soft-bear/case-study/case-study01.webp';
+import CASESTUDY02 from './photos/soft-bear/case-study/case-study02.webp';
+
+export {CASESTUDY01, CASESTUDY02}
+
 //ic soft bear
 import IC_SOFTWARESOLUTION from './photos/soft-bear/icon/ic-soft-waresolution.webp';
 import IC_DATASERVICE from './photos/soft-bear/icon/ic-data-service.webp';

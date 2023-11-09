@@ -48,12 +48,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
   const sticky = useSticky(350);
   const navbarRef = useRef<HTMLElement | null>(null);
 
-  // dynamically render the logo
   const logo = sticky ? 'logo-dark' : logoAlt ?? 'logo-dark';
-  // dynamically added navbar classname
-
-  // backuop navbar เดิมใส
-  // const fixedClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed ';
 
   const fixedClassName = 'navbar navbar-expand-lg center-nav bg-white bg-opacity-100 navbar-dark navbar-clone fixed shadow-lg ';
 
@@ -68,8 +63,6 @@ const NavbarMain: FC<NavbarProps> = (props) => {
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100 ">
-   
-
         <Link href="/">
           <Image src={LOGO.src} width={192} height={56} alt="3DTV-Tech Logo"></Image>
         </Link>
@@ -84,18 +77,18 @@ const NavbarMain: FC<NavbarProps> = (props) => {
         }}
       >
         <div className="offcanvas-header d-lg-none gap-3">
-          {/* <h3 className="text-white fs-30 mb-0">3DTVTech</h3> */}
           <Image src={LOGO.src} width={188} height={26} alt="3DTV-Tech Logo" className="w-70 h-auto"></Image>
           <button type="button" aria-label="Close" data-bs-dismiss="offcanvas" className="bg-transparent border-0">
             <Icon icon="carbon:close-outline" width={24} height={24} color="white" />
           </button>
         </div>
 
-        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100" 
+
+        >
           <ul className="navbar-nav">
-            {/* ===================== demos nav item ===================== */}
             <li className="nav-item ">
-              <Link href="/" className="nav-link m-0 px-5 fs-22 d-md-none " style={{}}>
+              <Link href="/" className="nav-link m-0 px-5 fs-22 d-md-none ">
                 <div className="d-flex align-items-center gap-3 " style={{
                   color: "#FF8812"
                 }}>
@@ -115,11 +108,11 @@ const NavbarMain: FC<NavbarProps> = (props) => {
 
             <li className="nav-item">
               <Link href="/services" className="nav-link  px-5 fs-22 d-md-none">
-                <div className="d-flex align-items-center gap-3">
-                  <Icon icon="ic:baseline-miscellaneous-services" width="25" 
-                  style={{
+                <div className="d-flex align-items-center gap-3"   style={{
                     color: "#FF8812"
-                  }}/>
+                  }}>
+                  <Icon icon="ic:baseline-miscellaneous-services" width="25" 
+                />
                   Services
                 </div>
               </Link>
@@ -129,8 +122,6 @@ const NavbarMain: FC<NavbarProps> = (props) => {
               </Link>
             </li>
 
-
-            {/* ===================== blocks nav item ===================== */}
             <li className="nav-item">
               <Link href="#" className="nav-link m-0 px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3" style={{
@@ -146,8 +137,6 @@ const NavbarMain: FC<NavbarProps> = (props) => {
               </Link>
             </li>
 
-
-            {/* ===================== blocks nav item ===================== */}
             <li className="nav-item">
               <Link href="#" className="nav-link px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3" style={{color:"#FF8812"}}>
@@ -161,7 +150,8 @@ const NavbarMain: FC<NavbarProps> = (props) => {
               </Link>
            </li>
           </ul>
-        </div>
+     
+       </div>
       </div>
 
       {/* ============= right side header content ============= */}
@@ -170,8 +160,11 @@ const NavbarMain: FC<NavbarProps> = (props) => {
          
 
           {/* ============= humburger button for small device ============= */}
-          <li className="nav-item d-lg-none">
-            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" className="hamburger offcanvas-nav-btn">
+          <li className="nav-item d-lg-none ">
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" className="hamburger offcanvas-nav-btn" 
+            style={{
+              color: "#FF8812"
+            }}>
               <span />
             </button>
           </li>
