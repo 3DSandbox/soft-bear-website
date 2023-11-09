@@ -149,14 +149,14 @@ const NavbarMain: FC<NavbarProps> = (props) => {
 
             {/* ===================== blocks nav item ===================== */}
             <li className="nav-item">
-              <Link href="/aboutus" className="nav-link px-5 fs-22 d-md-none">
+              <Link href="#" className="nav-link px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3" style={{color:"#FF8812"}}>
                   <Icon icon="material-symbols:info" width="25" />
                 Contact
                 </div>
               </Link>
 
-              <Link href="/aboutus" className="nav-link pm-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
+              <Link href="#" className="nav-link pm-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
               Contact
               </Link>
            </li>

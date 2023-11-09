@@ -3,7 +3,7 @@ import LOGOICON from './photos/3DTVTech/logo/logo.webp';
 import NOTFOUND from './photos/3DTVTech/default/notfound1080.webp';
 import WHOWEARE from './photos/3DTVTech/home/whoweare.webp';
 
-export { LOGO, LOGOICON, NOTFOUND, WHOWEARE};
+export { LOGO, LOGOICON, NOTFOUND, WHOWEARE };
 
 // home
 
@@ -19,7 +19,7 @@ import EVENT from './photos/3DTVTech/home/icon/ic_event.webp';
 import MUSEUM from './photos/3DTVTech/home/icon/ic_museum.webp';
 import SCHOOL from './photos/3DTVTech/home/icon/ic_school.webp';
 
-export { COMPANY, EVENT, MUSEUM, SCHOOL};
+export { COMPANY, EVENT, MUSEUM, SCHOOL };
 
 //about us
 import DIGITALARTANDMEDIA from './photos/3DTVTech/aboutus/icon/ic_digital-art-and-media.webp';
@@ -29,10 +29,10 @@ import FILMANDANIMATION from './photos/3DTVTech/aboutus/icon/ic_flim-and-animati
 import INNOVATIVEADVERTISINGANDMARKETING from './photos/3DTVTech/aboutus/icon/ic_invovative-advertising-and-marketing.webp';
 import INTERACTIVEINSTALLATIONS from './photos/3DTVTech/aboutus/icon/ic_interactive-installations.webp';
 import EDUCATIONALTECHNOLOGY from './photos/3DTVTech/aboutus/icon/ic_educational-technology.webp';
-import WHEREWEARE from './photos/3DTVTech/aboutus/contactus/ic_pin.webp'
-import CONTACT from './photos/3DTVTech/aboutus/contactus/ic_contact.webp'
-import EMAIL from './photos/3DTVTech/aboutus/contactus/ic_email.webp'
-import WORKTIME from './photos/3DTVTech/aboutus/contactus/ic_worktime.webp'
+import WHEREWEARE from './photos/3DTVTech/aboutus/contactus/ic_pin.webp';
+import CONTACT from './photos/3DTVTech/aboutus/contactus/ic_contact.webp';
+import EMAIL from './photos/3DTVTech/aboutus/contactus/ic_email.webp';
+import WORKTIME from './photos/3DTVTech/aboutus/contactus/ic_worktime.webp';
 
 import FACEBOOK from './photos/3DTVTech/aboutus/oursocialmedia/ic_facebook.webp';
 import IG from './photos/3DTVTech/aboutus/oursocialmedia/ic_ig.webp';
@@ -40,8 +40,24 @@ import TIKTOK from './photos/3DTVTech/aboutus/oursocialmedia/ic_tiktok.webp';
 import YOUTUBE from './photos/3DTVTech/aboutus/oursocialmedia/ic_youtube.webp';
 import LINEID from './photos/3DTVTech/aboutus/oursocialmedia/ic_line.webp';
 
-
-export { DIGITALARTANDMEDIA, CREATIVECODING, GAMEDEVELOPMENT, FILMANDANIMATION, INNOVATIVEADVERTISINGANDMARKETING, INTERACTIVEINSTALLATIONS, EDUCATIONALTECHNOLOGY, WHEREWEARE, CONTACT, EMAIL, WORKTIME, FACEBOOK, IG, TIKTOK, YOUTUBE, LINEID};
+export {
+  DIGITALARTANDMEDIA,
+  CREATIVECODING,
+  GAMEDEVELOPMENT,
+  FILMANDANIMATION,
+  INNOVATIVEADVERTISINGANDMARKETING,
+  INTERACTIVEINSTALLATIONS,
+  EDUCATIONALTECHNOLOGY,
+  WHEREWEARE,
+  CONTACT,
+  EMAIL,
+  WORKTIME,
+  FACEBOOK,
+  IG,
+  TIKTOK,
+  YOUTUBE,
+  LINEID
+};
 
 // service
 import BANNERSERVICE from './photos/3DTVTech/bannerpage/banner-09.webp';
@@ -59,7 +75,22 @@ import HARDWARE from './photos/3DTVTech/service-main/resize512/11Hard-ware.webp'
 import IOSSOLUTION from './photos/3DTVTech/service-main/typeof/iotsolution.webp';
 import DATADRIVENBUSINESSSERVICE from './photos/3DTVTech/service-main/resize512/11Hard-ware.webp';
 
-export {VIRTUALEXPERIENCE, INTERACTIVE, EVENTSERVICE, REALITY, CRM, CINEMA, PROJECTION, LMS, INFO, SOFTWARE, HARDWARE, BANNERSERVICE, IOSSOLUTION, DATADRIVENBUSINESSSERVICE}
+export {
+  VIRTUALEXPERIENCE,
+  INTERACTIVE,
+  EVENTSERVICE,
+  REALITY,
+  CRM,
+  CINEMA,
+  PROJECTION,
+  LMS,
+  INFO,
+  SOFTWARE,
+  HARDWARE,
+  BANNERSERVICE,
+  IOSSOLUTION,
+  DATADRIVENBUSINESSSERVICE
+};
 
 //company/business organization
 import BANNER04 from './photos/3DTVTech/bannerpage/banner-04.webp';
@@ -71,8 +102,16 @@ import IOTSOLUTION from './photos/3DTVTech/service-main/typeof/iotsolution.webp'
 import AITRAINING from './photos/3DTVTech/service-main/typeof/aitraining.webp';
 import DATADRIVENBUSINESS from './photos/3DTVTech/service-main/typeof/datadrivenbussiness.webp';
 
-export { BANNER04, ELEARNING, LINEINTEGRATION, WebsiteDevelopment, VirtualExhibitionEvent, IOTSOLUTION, AITRAINING, DATADRIVENBUSINESS};
-
+export {
+  BANNER04,
+  ELEARNING,
+  LINEINTEGRATION,
+  WebsiteDevelopment,
+  VirtualExhibitionEvent,
+  IOTSOLUTION,
+  AITRAINING,
+  DATADRIVENBUSINESS
+};
 
 //Event / Agency
 import BANNER05 from './photos/3DTVTech/bannerpage/banner-05.webp';
@@ -86,7 +125,18 @@ import KARAOKEBOOTH from './photos/3DTVTech/service-main/typeof/karaokebooth.web
 import WEBBASEDARVR from './photos/3DTVTech/service-main/typeof/webbasedarvr.webp';
 import PROJECTIONMAPPING from './photos/3DTVTech/service-main/typeof/projection.webp';
 
-export { BANNER05, INTERACTIVETECHNOLOGY, INTAGRAMFILTER, MICROSITEGAME, REGISTERATION, TRACKINGPARTICIPATE, PHOTOBOOTH, KARAOKEBOOTH, WEBBASEDARVR, PROJECTIONMAPPING};
+export {
+  BANNER05,
+  INTERACTIVETECHNOLOGY,
+  INTAGRAMFILTER,
+  MICROSITEGAME,
+  REGISTERATION,
+  TRACKINGPARTICIPATE,
+  PHOTOBOOTH,
+  KARAOKEBOOTH,
+  WEBBASEDARVR,
+  PROJECTIONMAPPING
+};
 
 //Museum / Art Gallery
 import BANNER06 from './photos/3DTVTech/bannerpage/banner-06.webp';
@@ -98,7 +148,16 @@ import AIDTOUR from './photos/3DTVTech/service-main/typeof/aidtour.webp';
 import MUSEUM_TRACKINGPARTICIPATE from './photos/3DTVTech/service-main/typeof/tracingparticipate.webp';
 import COLLECTINGDATA from './photos/3DTVTech/service-main/typeof/collectingdata.webp';
 
-export {BANNER06, VIRTUALMUSEUM, ONLINETICKET, INTERACTIVEGAME, HARDWARESETCONTROL, AIDTOUR, COLLECTINGDATA, MUSEUM_TRACKINGPARTICIPATE}
+export {
+  BANNER06,
+  VIRTUALMUSEUM,
+  ONLINETICKET,
+  INTERACTIVEGAME,
+  HARDWARESETCONTROL,
+  AIDTOUR,
+  COLLECTINGDATA,
+  MUSEUM_TRACKINGPARTICIPATE
+};
 
 //School / Educational Organization
 import BANNER07 from './photos/3DTVTech/bannerpage/banner-07.webp';
@@ -106,8 +165,7 @@ import CINEMA3D4D from './photos/3DTVTech/service-main/typeof/3d-4d-cinema.webp'
 import TEACHINGAIDS from './photos/3DTVTech/service-main/typeof/teachingaid.webp';
 import SCHOOL_AIDTOUR from './photos/3DTVTech/service-main/typeof/aidtour.webp';
 
-export {BANNER07, CINEMA3D4D, TEACHINGAIDS, SCHOOL_AIDTOUR}
-
+export { BANNER07, CINEMA3D4D, TEACHINGAIDS, SCHOOL_AIDTOUR };
 
 //service detail virtual experience
 import BANNER11 from './photos/3DTVTech/bannerpage/banner-11.webp';
@@ -125,9 +183,24 @@ import TYPEOFVIRTUALMUSEUM from './photos/3DTVTech/service-main/typeof/virtualmu
 import TYPEOFMETAVERSE from './photos/3DTVTech/service-main/typeof/img_metaverse.webp';
 import TYPEOFMETAVERSEV2 from './photos/3DTVTech/service-main/typeof/img_metaverseV2.webp';
 
-export {BANNER11, IMG_DETAILVIRTUAL, IC_ACCESSIBILITY,IC_COSTEFFICIENCY,IC_GLOBALREACH,IC_CONVENIENCE,IC_ENVIRONMENTALIMPACT,IC_SCALABILITY,IC_ENGAGEMENTANDINTERACTION,IC_DATAANDANALYTICS, TYPEOFVIRTUALEVENT, TYPEOFVIRTUALMUSEUM, TYPEOFMETAVERSE, TYPEOFMETAVERSEV2}
+export {
+  BANNER11,
+  IMG_DETAILVIRTUAL,
+  IC_ACCESSIBILITY,
+  IC_COSTEFFICIENCY,
+  IC_GLOBALREACH,
+  IC_CONVENIENCE,
+  IC_ENVIRONMENTALIMPACT,
+  IC_SCALABILITY,
+  IC_ENGAGEMENTANDINTERACTION,
+  IC_DATAANDANALYTICS,
+  TYPEOFVIRTUALEVENT,
+  TYPEOFVIRTUALMUSEUM,
+  TYPEOFMETAVERSE,
+  TYPEOFMETAVERSEV2
+};
 
-//serivce detail interactive 
+//serivce detail interactive
 import BANNER12 from './photos/3DTVTech/bannerpage/banner-09.webp';
 import IMG_DETAILINTERACTIVE from './photos/3DTVTech/service-main/service-detail/img_interactive.webp';
 import IC_ENGAGING_EXPERIENCE from './photos/3DTVTech/service-main/icon-features/ic_engaging_experience.webp';
@@ -143,7 +216,22 @@ import TYPEOFINTERACTIVEWALLFLOOR from './photos/3DTVTech/service-main/typeof/im
 import TYPEOFMOBILEAPPLICATION from './photos/3DTVTech/service-main/typeof/img_mobile_application.webp';
 import TYPEOFKARAOKE from './photos/3DTVTech/service-main/typeof/img_karaoke.webp';
 
-export{BANNER12, IMG_DETAILINTERACTIVE, IC_ENGAGING_EXPERIENCE, IC_REDEEMREWARDS, IC_SOCIALMEDIASHARING,TYPEOFINTERACTIVEWALLFLOOR,TYPEOFXRAY,TYPEOFKARAOKE,TYPEOFMOBILEAPPLICATION,TYPEOFINTERACTIVEKINECT,TYPEOFMICROSITEGAMES,TYPEOFINTERACTIVETOUCHSCREEN,TYPEOFGAMECONTROLLER,TYPEOFMOBILECONTROL}
+export {
+  BANNER12,
+  IMG_DETAILINTERACTIVE,
+  IC_ENGAGING_EXPERIENCE,
+  IC_REDEEMREWARDS,
+  IC_SOCIALMEDIASHARING,
+  TYPEOFINTERACTIVEWALLFLOOR,
+  TYPEOFXRAY,
+  TYPEOFKARAOKE,
+  TYPEOFMOBILEAPPLICATION,
+  TYPEOFINTERACTIVEKINECT,
+  TYPEOFMICROSITEGAMES,
+  TYPEOFINTERACTIVETOUCHSCREEN,
+  TYPEOFGAMECONTROLLER,
+  TYPEOFMOBILECONTROL
+};
 
 //service detail event service
 import BANNER13 from './photos/3DTVTech/bannerpage/banner-13.webp';
@@ -155,7 +243,16 @@ import TYPEOFREGISTER from './photos/3DTVTech/service-main/typeof/img_register.w
 import TYPEOFLUCKYDRAW from './photos/3DTVTech/service-main/typeof/img_luckydraw.webp';
 import TYPEOFVOTE from './photos/3DTVTech/service-main/typeof/img_vote.webp';
 
-export{BANNER13, IMG_DETAILEVENTSERVICE, IC_LUCKYDRAW, IC_REGISTER, IC_VOTEPOLL, TYPEOFREGISTER, TYPEOFLUCKYDRAW, TYPEOFVOTE}
+export {
+  BANNER13,
+  IMG_DETAILEVENTSERVICE,
+  IC_LUCKYDRAW,
+  IC_REGISTER,
+  IC_VOTEPOLL,
+  TYPEOFREGISTER,
+  TYPEOFLUCKYDRAW,
+  TYPEOFVOTE
+};
 
 //service detail reality
 import BANNER14 from './photos/3DTVTech/bannerpage/banner-14.webp';
@@ -171,9 +268,22 @@ import TYPEOFVR from './photos/3DTVTech/service-main/typeof/img_vr.webp';
 import TYPEOFMR from './photos/3DTVTech/service-main/typeof/img_mr.webp';
 import TYPEOFXR from './photos/3DTVTech/service-main/typeof/img_xr.webp';
 
-export{BANNER14, IMG_REALITYTECHNOLOGY, IC_GAMING, IC_ENTERAINMENT,IC_TRAINING, IC_EDUCATION, IC_ARCHITECTURE, IC_RETAIL,TYPEOFAR,TYPEOFVR,TYPEOFMR, TYPEOFXR }
+export {
+  BANNER14,
+  IMG_REALITYTECHNOLOGY,
+  IC_GAMING,
+  IC_ENTERAINMENT,
+  IC_TRAINING,
+  IC_EDUCATION,
+  IC_ARCHITECTURE,
+  IC_RETAIL,
+  TYPEOFAR,
+  TYPEOFVR,
+  TYPEOFMR,
+  TYPEOFXR
+};
 
-//service detail crm 
+//service detail crm
 import BANNER15 from './photos/3DTVTech/bannerpage/banner-15.webp';
 import IMG_CRM from './photos/3DTVTech/service-main/service-detail/img_crm.webp';
 import IC_DATACOLLECTION from './photos/3DTVTech/service-main/icon-features/ic_data_collection.webp';
@@ -183,7 +293,16 @@ import IC_SEGMENTATION from './photos/3DTVTech/service-main/icon-features/ic_seg
 import IC_WORTHINVESTMENT from './photos/3DTVTech/service-main/icon-features/ic_worth_investment.webp';
 import TYPEOFLINEINTEGRATION from './photos/3DTVTech/service-main/typeof/img_line_integration.webp';
 
-export {BANNER15, IMG_CRM, IC_DATACOLLECTION, IC_MONITORING, IC_LOYALTY, IC_SEGMENTATION, IC_WORTHINVESTMENT, TYPEOFLINEINTEGRATION}
+export {
+  BANNER15,
+  IMG_CRM,
+  IC_DATACOLLECTION,
+  IC_MONITORING,
+  IC_LOYALTY,
+  IC_SEGMENTATION,
+  IC_WORTHINVESTMENT,
+  TYPEOFLINEINTEGRATION
+};
 
 //service detail cinema
 import BANNER16 from './photos/3DTVTech/bannerpage/banner-16.webp';
@@ -196,7 +315,17 @@ import IC_IMPRESSION from './photos/3DTVTech/service-main/icon-features/ic_impre
 import TYPEOFCINEMA3D from './photos/3DTVTech/service-main/typeof/img_cinema3d.webp';
 import TYPEOFCINEMA4D from './photos/3DTVTech/service-main/typeof/img_cinema4d.webp';
 
-export{BANNER16, IMG_CINEMA,IC_CREATIVE,IC_IMMERSIVEEXPERIENCE, IC_TECHNICALINNOVATION, IC_EDUCATIONV2, IC_IMPRESSION, TYPEOFCINEMA3D, TYPEOFCINEMA4D}
+export {
+  BANNER16,
+  IMG_CINEMA,
+  IC_CREATIVE,
+  IC_IMMERSIVEEXPERIENCE,
+  IC_TECHNICALINNOVATION,
+  IC_EDUCATIONV2,
+  IC_IMPRESSION,
+  TYPEOFCINEMA3D,
+  TYPEOFCINEMA4D
+};
 
 //service detail projection
 import BANNER17 from './photos/3DTVTech/bannerpage/banner-17.webp';
@@ -207,7 +336,15 @@ import IC_IMPACT from './photos/3DTVTech/service-main/icon-features/ic_impact.we
 import TYPEOFPROJECTIONMAPPING from './photos/3DTVTech/service-main/typeof/img_projection_mapping.webp';
 import TYPEOFPROJECTIONINTERACTIVE from './photos/3DTVTech/service-main/typeof/img_projection_interactive.webp';
 
-export {BANNER17, IMG_PROJECTION, IC_ENTERTAINMENT, IC_INTERACTIVE, IC_IMPACT, TYPEOFPROJECTIONMAPPING, TYPEOFPROJECTIONINTERACTIVE}
+export {
+  BANNER17,
+  IMG_PROJECTION,
+  IC_ENTERTAINMENT,
+  IC_INTERACTIVE,
+  IC_IMPACT,
+  TYPEOFPROJECTIONMAPPING,
+  TYPEOFPROJECTIONINTERACTIVE
+};
 
 //service detail LMS
 import BANNER18 from './photos/3DTVTech/bannerpage/banner-18.webp';
@@ -222,7 +359,19 @@ import TYPEOFLMS1 from './photos/3DTVTech/service-main/typeof/img_lms1.webp';
 import TYPEOFLMS2 from './photos/3DTVTech/service-main/typeof/img_lms2.webp';
 import TYPEOFLMS3 from './photos/3DTVTech/service-main/typeof/img_lms3.webp';
 
-export {BANNER18, IMG_LMS, IC_MANAGECOURSE, IC_ENTERINGCHANEL, IC_TEST, IC_TRACKING, IC_CERTIFICATE, TYPEOFLMS1, TYPEOFLMS2, TYPEOFLMS3, IC_SCHOOLMEDIA}
+export {
+  BANNER18,
+  IMG_LMS,
+  IC_MANAGECOURSE,
+  IC_ENTERINGCHANEL,
+  IC_TEST,
+  IC_TRACKING,
+  IC_CERTIFICATE,
+  TYPEOFLMS1,
+  TYPEOFLMS2,
+  TYPEOFLMS3,
+  IC_SCHOOLMEDIA
+};
 
 //service detail Infographics
 import BANNER19 from './photos/3DTVTech/bannerpage/banner-19.webp';
@@ -233,7 +382,7 @@ import IC_REACHTHETARGET from './photos/3DTVTech/service-main/icon-features/ic_r
 import TYPEOFINFO2D from './photos/3DTVTech/service-main/typeof/img_info2d.webp';
 import TYPEOFINFO3D from './photos/3DTVTech/service-main/typeof/img_info3d.webp';
 
-export {BANNER19, IMG_INFO, IC_INFO, IC_EASYTOUNDERSTAND, IC_REACHTHETARGET,TYPEOFINFO2D, TYPEOFINFO3D}
+export { BANNER19, IMG_INFO, IC_INFO, IC_EASYTOUNDERSTAND, IC_REACHTHETARGET, TYPEOFINFO2D, TYPEOFINFO3D };
 
 //service detail software
 import BANNER20 from './photos/3DTVTech/bannerpage/banner-20.webp';
@@ -246,7 +395,17 @@ import TYPEOFWEBDEVELOPMENT from './photos/3DTVTech/service-main/typeof/img_web-
 import TYPEOFBUSINESSMATCHINGPLATFORM from './photos/3DTVTech/service-main/typeof/img_businessmatching-platform.webp';
 import TYPEOFLEARNINGMANAGEMENTSYSTEM from './photos/3DTVTech/service-main/typeof/img_leariningmanagementsystem.webp';
 
-export {BANNER20, IMG_SOFTWARE, IC_ANALYSIS, IC_DESIGN , IC_CODING, TYPEOFAPPLICATIONDEVELOPMENT, TYPEOFWEBDEVELOPMENT, TYPEOFBUSINESSMATCHINGPLATFORM, TYPEOFLEARNINGMANAGEMENTSYSTEM}
+export {
+  BANNER20,
+  IMG_SOFTWARE,
+  IC_ANALYSIS,
+  IC_DESIGN,
+  IC_CODING,
+  TYPEOFAPPLICATIONDEVELOPMENT,
+  TYPEOFWEBDEVELOPMENT,
+  TYPEOFBUSINESSMATCHINGPLATFORM,
+  TYPEOFLEARNINGMANAGEMENTSYSTEM
+};
 
 //service detail hardware
 import BANNER21 from './photos/3DTVTech/bannerpage/banner-21.webp';
@@ -258,24 +417,31 @@ import TYPEOFZEOSCOPE from './photos/3DTVTech/service-main/typeof/img_zeoscope.w
 import TYPEOFPRESSTOPLAY from './photos/3DTVTech/service-main/typeof/img_presstoplay.webp';
 import TYPEOFPRESSTORANDOM from './photos/3DTVTech/service-main/typeof/img_presstorandom.webp';
 
-export {BANNER21, IMG_HARDWARE, IC_INTERACTIVEHARDWARE, IC_REACHTHETARGETHARDWARE, IC_ATTRACTIVE, TYPEOFZEOSCOPE, TYPEOFPRESSTOPLAY, TYPEOFPRESSTORANDOM }
-
+export {
+  BANNER21,
+  IMG_HARDWARE,
+  IC_INTERACTIVEHARDWARE,
+  IC_REACHTHETARGETHARDWARE,
+  IC_ATTRACTIVE,
+  TYPEOFZEOSCOPE,
+  TYPEOFPRESSTOPLAY,
+  TYPEOFPRESSTORANDOM
+};
 
 //service detail iot solution
 import IMG_IOTSOLUTION from './photos/3DTVTech/service-main/service-detail/img_harddev.webp';
 
-export {IMG_IOTSOLUTION}
+export { IMG_IOTSOLUTION };
 
 //service detail ai training
 import IMG_AITRAINING from './photos/3DTVTech/service-main/service-detail/img_harddev.webp';
 
-export {IMG_AITRAINING}
+export { IMG_AITRAINING };
 
 //service detail data driven business
 // import IMG_DATADRIVENBUSINESS from './photos/3DTVTech/service-main/service-detail/img_harddev.webp';
 
 // export {IMG_DATADRIVENBUSINESS}
-
 
 //blogs
 import BANNER10 from './photos/3DTVTech/bannerpage/banner-10.webp';
@@ -284,15 +450,14 @@ import BLOG01V2 from './photos/3DTVTech/blognews/blog01V2.webp';
 import BLOG02 from './photos/3DTVTech/blognews/blog02.webp';
 import BLOG03 from './photos/3DTVTech/blognews/blog03.webp';
 
-export { BLOG01,BLOG02,BLOG03, BANNER10, BLOG01V2 };
+export { BLOG01, BLOG02, BLOG03, BANNER10, BLOG01V2 };
 
 // blogs01
 import BLOG01PIC01 from './photos/3DTVTech/blognews/blog1/img01.webp';
 import BLOG01PIC02 from './photos/3DTVTech/blognews/blog1/img02.webp';
 import BLOG01PIC03 from './photos/3DTVTech/blognews/blog1/img03.webp';
 
-export { BLOG01PIC01, BLOG01PIC02, BLOG01PIC03};
-
+export { BLOG01PIC01, BLOG01PIC02, BLOG01PIC03 };
 
 // blogs02
 import BLOG02PIC01 from './photos/3DTVTech/blognews/blog2/img01.webp';
@@ -307,15 +472,27 @@ import BLOG02PIC09 from './photos/3DTVTech/blognews/blog2/img09.webp';
 import BLOG02PIC10 from './photos/3DTVTech/blognews/blog2/img10.webp';
 import BLOG02PIC11 from './photos/3DTVTech/blognews/blog2/img11.webp';
 
-export { BLOG02PIC01, BLOG02PIC02, BLOG02PIC03, BLOG02PIC04, BLOG02PIC05, BLOG02PIC06, BLOG02PIC07, BLOG02PIC08, BLOG02PIC09, BLOG02PIC10, BLOG02PIC11};
+export {
+  BLOG02PIC01,
+  BLOG02PIC02,
+  BLOG02PIC03,
+  BLOG02PIC04,
+  BLOG02PIC05,
+  BLOG02PIC06,
+  BLOG02PIC07,
+  BLOG02PIC08,
+  BLOG02PIC09,
+  BLOG02PIC10,
+  BLOG02PIC11
+};
 
 //contact us
 import BANNER22 from './photos/3DTVTech/bannerpage/banner-22.webp';
-import MEMBERV1 from  './photos/3DTVTech/member/member.webp'
-import MEMBERV2 from  './photos/3DTVTech/member/memberv2.webp'
+import MEMBERV1 from './photos/3DTVTech/member/member.webp';
+import MEMBERV2 from './photos/3DTVTech/member/memberv2.webp';
 import QRLINE from './photos/3DTVTech/contact-line.webp';
 
-export {QRLINE, MEMBERV1, MEMBERV2,BANNER22};
+export { QRLINE, MEMBERV1, MEMBERV2, BANNER22 };
 
 //register & check in
 import BANNER23 from './photos/3DTVTech/bannerpage/banner-23.webp';
@@ -336,10 +513,27 @@ import REGIS_DTAC from './photos/3DTVTech/service-main/service-inside/register-c
 import REGIS_NESCAFE from './photos/3DTVTech/service-main/service-inside/register-checkin/regis_nescafe.webp';
 import REGIS_XIOMI from './photos/3DTVTech/service-main/service-inside/register-checkin/regis_xiomi.webp';
 
+export {
+  BANNER23,
+  IMG_MICROSITE,
+  REGISTER,
+  LUCKYDRAW,
+  VOTE,
+  REGISTERPACKAGE01,
+  REGISTERPACKAGE02,
+  REGISTERPACKAGE03,
+  REGIS_NETFLIX,
+  REGIS_BETTERTH,
+  REGIS_KTAXA,
+  REGIS_GC,
+  REGIS_HONDA,
+  REGIS_SUNSILK,
+  REGIS_DTAC,
+  REGIS_NESCAFE,
+  REGIS_XIOMI
+};
 
-export {BANNER23, IMG_MICROSITE, REGISTER, LUCKYDRAW, VOTE, REGISTERPACKAGE01, REGISTERPACKAGE02, REGISTERPACKAGE03, REGIS_NETFLIX, REGIS_BETTERTH, REGIS_KTAXA, REGIS_GC, REGIS_HONDA, REGIS_SUNSILK, REGIS_DTAC, REGIS_NESCAFE, REGIS_XIOMI}
-
-//microsite 
+//microsite
 import BANNER24 from './photos/3DTVTech/bannerpage/banner-24.webp';
 import INSIDECOVER_REGISTER from './photos/3DTVTech/service-main/typeof/img_register.webp';
 import MICROSITE_LAYMAX from './photos/3DTVTech/service-main/service-inside/microsite/Microsite_LayMax.webp';
@@ -358,20 +552,54 @@ import MICROSITE_BRAND from './photos/3DTVTech/service-main/service-inside/micro
 import MICROSITE_KTAXAPHOTO from './photos/3DTVTech/service-main/service-inside/microsite/Microsite_ktaxaphoto.webp';
 import MICROSITE_COKE from './photos/3DTVTech/service-main/service-inside/microsite/Microsite_coke.webp';
 
-
-export {BANNER24, INSIDECOVER_REGISTER, MICROSITE_LAYMAX, MICROSITE_LAYPASSPORT, MICROSITE_KTAXA, MICROSITE_GLADE, MICROSITE_CROCO, MICROSITE_BIGON, MICROSITE_NIVEAMEN, MICROSITE_CHIECKENCROSSING, MICROSITE_T2DM, MICROSITE_MATCHING, MICROSITE_NOCNOC, MICROSITE_NUGGET, MICROSITE_BRAND, MICROSITE_KTAXAPHOTO, MICROSITE_COKE}
+export {
+  BANNER24,
+  INSIDECOVER_REGISTER,
+  MICROSITE_LAYMAX,
+  MICROSITE_LAYPASSPORT,
+  MICROSITE_KTAXA,
+  MICROSITE_GLADE,
+  MICROSITE_CROCO,
+  MICROSITE_BIGON,
+  MICROSITE_NIVEAMEN,
+  MICROSITE_CHIECKENCROSSING,
+  MICROSITE_T2DM,
+  MICROSITE_MATCHING,
+  MICROSITE_NOCNOC,
+  MICROSITE_NUGGET,
+  MICROSITE_BRAND,
+  MICROSITE_KTAXAPHOTO,
+  MICROSITE_COKE
+};
 
 //interactive touch screen
 import BANNER26 from './photos/3DTVTech/bannerpage/banner-26.webp';
 
-export {BANNER26}
-
+export { BANNER26 };
 
 //career
-import BANNER25 from './photos/3DTVTech/bannerpage/banner-25.webp'
-import IC_HEATH01 from './photos/3DTVTech/career/ic_heath01.webp'
-import IC_ALLOWANCE from './photos/3DTVTech/career/ic_allowance.webp'
-import IC_OT from './photos/3DTVTech/career/ic_ot.webp'
+import BANNER25 from './photos/3DTVTech/bannerpage/banner-25.webp';
+import IC_HEATH01 from './photos/3DTVTech/career/ic_heath01.webp';
+import IC_ALLOWANCE from './photos/3DTVTech/career/ic_allowance.webp';
+import IC_OT from './photos/3DTVTech/career/ic_ot.webp';
 
+export { IC_HEATH01, BANNER25, IC_ALLOWANCE, IC_OT };
 
-export {IC_HEATH01, BANNER25, IC_ALLOWANCE, IC_OT}
+//ic soft bear
+import IC_SOFTWARESOLUTION from './photos/soft-bear/icon/ic-soft-waresolution.webp';
+import IC_DATASERVICE from './photos/soft-bear/icon/ic-data-service.webp';
+import IC_IOT from './photos/soft-bear/icon/ic-iot.webp';
+import IC_ARTIFICIALINTELLIGENCE from './photos/soft-bear/icon/ic-artificial-intelligence.webp';
+
+export { IC_SOFTWARESOLUTION, IC_DATASERVICE, IC_IOT, IC_ARTIFICIALINTELLIGENCE };
+
+//baner soft bear
+import SOFTBEARBANNER01 from './photos/soft-bear/banner/banner-01.webp';
+import SOFTBEARBANNER02 from './photos/soft-bear/banner/banner-02.webp';
+
+export { SOFTBEARBANNER01, SOFTBEARBANNER02 };
+
+//blog soft bear
+import BLOGMOCK from './photos/soft-bear/blog/mock-blog.webp';
+
+export {BLOGMOCK}

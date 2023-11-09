@@ -3,7 +3,7 @@ import Carousel from 'components/reuseable/Carousel';
 // -------- custom hook -------- //
 import useLightBox from 'hooks/useLightBox';
 import NextLink from 'components/reuseable/links/NextLink';
-import { BANNER01, BANNER02, BANNER03} from 'assets';
+import { BANNER01, BANNER02, BANNER03, SOFTBEARBANNER01} from 'assets';
 
 const BannerMain: FC = () => {
   // use video popup
@@ -16,7 +16,7 @@ const BannerMain: FC = () => {
           <div
             className="swiper-slide  bg-image"
             style={{ 
-              backgroundImage: `url(${BANNER01.src})` 
+              backgroundImage: `url(${SOFTBEARBANNER01.src})` 
             }}
           >
 

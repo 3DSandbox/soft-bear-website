@@ -18,7 +18,6 @@ const TechnologyConsulting: FC = () => {
       <div className="row pt-9 pt-md-9">
         <div
           className="col-md-10 col-lg-8 col-xl-7 col-xxl-10 mx-auto text-center"
-          // style={slideInDownAnimate('1000ms')}
         >
           <h2
             className="text-main text-uppercase display-6"
@@ -49,15 +48,25 @@ const TechnologyConsulting: FC = () => {
             className="col-md-6 col-lg-4 col-xl-3 col-xxl-3 mx-auto text-center"
             key={item.id}
           >
-            <Image src={item.image} alt={item.title} width={128} height={128} draggable={false} />
+            <Image src={item.image} alt={item.title} width={98} height={98} draggable={false} />
+            
             <h3
-              className="fs-15 my-5"
-              style={{
-                color: '#737373'
-              }}
-            >
-              {item.title}{' '}
+              className="fs-18 my-5 text-main">
+              {item.title}
+              <hr
+            className="mt-2 p-0 "
+            style={{
+              height: '3px',
+              width: '4rem',
+              backgroundColor: '#FF8812',
+              margin: 'auto'
+            }}
+          ></hr>
             </h3>
+            <p  className='mt-n2'>
+              {item.detail}
+            
+            </p>
           </Link>
         ))}
       </div>

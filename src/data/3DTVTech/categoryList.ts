@@ -1,40 +1,36 @@
-import { COMPANY, EVENT, MUSEUM, SCHOOL } from 'assets';
+import { COMPANY, EVENT, IC_ARTIFICIALINTELLIGENCE, IC_DATASERVICE, IC_IOT, IC_SOFTWARESOLUTION, MUSEUM, SCHOOL } from 'assets';
 
 const categoryList = [
     {
       id: 1,
       title: 'Software Solution',
-    //   image: '/img/photos/3DTVTech/home/icon/ic_company.png',
-      image: COMPANY.src,
+      image: IC_SOFTWARESOLUTION.src,
       type: 'Software Solution',
-    //   url: '/3DTVTech/demo-j-company'
+      detail: 'การใช้ซอฟแวร์ในการแก้ไขปัญหา ปรับกระบวนการให้เหมาะสม เพื่อเพิ่มประสิทธิภาพ'
     }
     ,
     {
         id: 2,
         title: 'Data Service',
-        // image: '/img/photos/3DTVTech/home/icon/ic_event.png',
-        image: EVENT.src,
+        image: IC_DATASERVICE.src,
         type: 'Data Service',
-        // url: '/3DTVTech/demo-j-eventagency'
+        detail: 'เราคือผู้สร้างสรรค์งานดิจิทัล แอนิเมชัน และสื่อ Interactive ในทุกรูปแบบ ทุกแพลตฟอร์ม'
     }
     ,
 
     {
         id: 3,
         title: 'IOT',
-        // image: '/img/photos/3DTVTech/home/icon/ic_museum.png',
-        image: MUSEUM.src,
+        image: IC_IOT.src,
         type: 'IOT',
-        // url: '/3DTVTech/demo-j-meuseumart'
+        detail: 'เราคือผู้สร้างสรรค์งานดิจิทัล แอนิเมชัน และสื่อ Interactive ในทุกรูปแบบ ทุกแพลตฟอร์ม'
     },
     {
         id:4    ,
         title: 'Artificial Intelligence (AI)',
-        // image: '/img/photos/3DTVTech/home/icon/ic_school.png',
-        image: SCHOOL.src,
+        image: IC_ARTIFICIALINTELLIGENCE.src,
         type: 'Artificial Intelligence (AI)',
-        // url: '/3DTVTech/demo-j-schooleducational'
+        detail: 'เราคือผู้สร้างสรรค์งานดิจิทัล แอนิเมชัน และสื่อ Interactive ในทุกรูปแบบ ทุกแพลตฟอร์ม'
     }
 
     

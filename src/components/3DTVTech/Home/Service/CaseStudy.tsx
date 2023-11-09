@@ -53,7 +53,7 @@ const CaseStudy: FC = () => {
                   }}
                 >
                   <Link href="/services/interactive/">
-                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase text-white">Ice APP</h2>
+                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase ">Ice APP</h2>
                   </Link>
                 </div>
               </div>
@@ -79,14 +79,14 @@ const CaseStudy: FC = () => {
                   }}
                 >
                   <Link href="/services/interactive/">
-                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase text-white">Business Matching</h2>
+                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase ">Business Matching</h2>
                   </Link>
                 </div>
               </div>
             </div>
           
           {/* 03 */}
-          <div className="project col-md-6 mb-5 col-xl-3">
+          <div className="project col-md-6 mb-5 col-xl-3 ">
               <div
                 className="d-flex flex-column shadow-lg h-100"
                 data-aos="zoom-in"
@@ -106,7 +106,7 @@ const CaseStudy: FC = () => {
                   backgroundColor: "#FF8812"
                 }}>
                   <Link href="/services/interactive/">
-                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase text-white">Web3 & Metaverse</h2>
+                    <h2 className="fs-18 text-center text-white mb-0 text-uppercase ">Web3 & Metaverse</h2>
                   </Link>
                 </div>
               </div>

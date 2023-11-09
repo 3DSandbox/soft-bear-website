@@ -1,9 +1,8 @@
 import { FC, useEffect } from 'react';
-import Link from 'next/link';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import { BANNERSERVICE} from 'assets';
+import { SOFTBEARBANNER02} from 'assets';
 // ..
 
 const ServicesHero: FC = () => {
@@ -14,7 +13,7 @@ const ServicesHero: FC = () => {
 
   return (
     <section className="wrapper bg-image"
-    style={{backgroundImage: `url(${BANNERSERVICE.src})`,
+    style={{backgroundImage: `url(${SOFTBEARBANNER02.src})`,
     height: "440px"}}
     >
       <div className="container pt-16 pt-md-18 pb-12 pb-md-18 pb-lg-15">
@@ -25,7 +24,7 @@ const ServicesHero: FC = () => {
               Our Services
             </h3>
             <p className="lead fs-22 mt-5 text-white" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-delay="200">
-            เราคือผู้สร้างสรรค์งานครบวงจรด้วยเทคโนโลยีสมัยใหม่<br></br>สร้างประสบการณ์ใหม่ที่แตกต่างไปจากเดิม
+           
             </p>
           </div>
         </div>

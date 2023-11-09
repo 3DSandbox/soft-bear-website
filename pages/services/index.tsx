@@ -35,25 +35,9 @@ const Page: NextPage = () => {
         />
         <meta name="author" content="3DTV-Tech" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* !!!open graph ไม่ยอมอ่าน อ่านแต่ของหน้า _app.tsx */}
-        {/* <meta property="og:url" content="https://3dtv-tech.com/"></meta>
-        <meta property="og:title" content="3DTV-Test"></meta>
-        <meta property="og:description" content="Test"></meta>
-        <meta property="og:image" content="https://3dtv-tech.com/public/og/cover.jpg"></meta> */}
+      
       </Head>
-      {/* <Head>
-        <title>Services</title>
-        <meta
-          name="description"
-          content="3DTV-Tech เราคือผู้ที่พร้อมสำหรับการให้บริการ Service ต่าง ๆ สำหรับสื่อ New Media ทุกประเภท แต่ละบริการถูกออกแบบให้สอดคล้อง กับความต้องการที่เปลี่ยนแปลงอย่างรวดเร็วอยู่ตลอดเวลา เราพร้อมค้นหา Solution ตอบโจทย์กับธุรกิจของคุณอย่างมีประสิทธิภาพ"
-        />
-        <meta
-          name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, Software Development, Hardware Development, บริการพัฒนาสื่อ New Media, พัฒนาสื่อ Interactive, บริการอีเว้นท์ , บริการ Event Service, รับพัฒนาซอฟต์แวร์, รับพัฒนาฮาร์ดแวร์, CRM, LMS, บริการติดตั้งโรงหนัง 3 มิติ ,ติดตั้ง Cinema 3D, ติดตั้ง Cinema 4D, บริการติดตั้งโรงหนัง 2 มิติ, รับพัฒนา LMS, รับทำสื่อ Info Graphics, รับทำสื่อ Motion Graphics, รับทำวิดีโอ, รับทำสื่อวิดีโอการเรียนการสอน, รับทำสื่อการเรียนการสอน, รับพัฒนาฮาร์ดแวร์, รับพัฒนาซอฟต์แวร์, บริการพัฒนา Software, บริการพัฒนา Hardware, บริการรับทำ Projection Mapping, รับทำสื่อ AR, รับทำสื่อ VR, รับทำสื่อ MR, รับทำสื่อ XR, รับทำเกมงานอีเว้นท์, รับทำ Microsite, บริการพัฒนาเกม, Game Development, บริการติดตั้ง Hardware, บริการติดตั้งฮาร์ดแวร์, บริการ Setup Hardware"
-        />
-        <meta name="author" content="3DTV-Tech" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head> */}
+    
       <PageProgress />
 
       {/* ========== header ========== */}
@@ -69,15 +53,9 @@ const Page: NextPage = () => {
 
         <section className="wrapper" >
           <div className="container">
-            <h1 className="fs-28 mt-10 text-main">3DTV-Tech “Creative Thinking and Technological Expertise”</h1>
+            <h1 className="fs-28 mt-10 text-main">SoftBear "Quality Software, Endless Possibilities"</h1>
             <p className="fs-18 mt-5">
-              เราคือทีมพัฒนาเทคโนโลยีสมัยใหม่ ด้วยความก้าวหน้าด้านเทคโนโลยี รวมไปถึงการเปลี่ยนแปลงของผู้บริโภค
-              และการเปิดตัวแพลตฟอร์มใหม่ อย่างต่อเนื่อง เราจึงต้องพร้อมและพัฒนาเทคโนยีเพื่อเพิ่มความสามารถ
-              และความโดดเด่นในการแข่งขันในทุกแพลตฟอร์มให้กับลูกค้าอยู่เสมอ
-            </p>
-            <p className="fs-18">
-              ด้วยประสบการณ์การพัฒนามีเดียมาอย่างยาวนานและเข้าใจถึงความท้า ทายของการแข่งขันในปัจจุบัน
-              เราพร้อมจะก้าวไปข้างหน้าสร้างประสบการณ์ ที่ล้ำสมัยไม่เหมือนใครไปพร้อมกับคุณ
+            xxxxxxxxx
             </p>
             {/* ========== projects section ========== */}
             <ServicesMain />
@@ -85,7 +63,6 @@ const Page: NextPage = () => {
         </section>
       </main>
 
-      <ServicesFooter />
 
       {/* ========== footer section ========== */}
       <FooterMain />
