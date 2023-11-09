@@ -2,7 +2,7 @@
 const nextConfig = {
   // swcMinify: true,
   env:{
-    NEXT_PUBLIC_GA_MEASUREMENT_ID:"G-2D3WW30X0M",
+    NEXT_PUBLIC_GA_MEASUREMENT_ID:"G-2D3WW30X0M**-",
   },
   // basePath:"/app/2023/3dtvtech",
   reactStrictMode: false,
@@ -11,7 +11,7 @@ const nextConfig = {
     unoptimized: true
   },
   trailingSlash:true,
-  domains: ["3dtv-tech.com","www.gforcesolution.com", "localhost"],
+  domains: ["soft-bear.com","www.gforcesolution.com", "localhost"],
   exportPathMap: async function () {
       // setup static path for nextjs build
       const paths = {      
