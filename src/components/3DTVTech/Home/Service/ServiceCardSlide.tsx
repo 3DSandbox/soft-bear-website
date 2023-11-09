@@ -32,17 +32,11 @@ const ServiceCardSlide: FC<ServiceCardSlideProps> = (props) => {
     <div className={`project item`} data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100" data-aos-easing="ease">
       <Link href={`/services/service-details-main/?service_id=${id}`}>
         <figure className="rounded mb-6 position-relative overflow-hidden">
-          {/* <img src={image} srcSet={`/img/photos/${image}@2x.jpg 2x`} alt={title} /> */}
           <Image src={image} width={512} height={512} alt={title} />
 
           <p className="item-cart bg-blue">
-            {/* <a href="">{title} </a> */}
-            {/* <Link href={`/services/service-details-main/?service_id=${id}`}>{title}</Link> */}
             {title}
           </p>
-
-          {/* {newProduct && badge('New!', 'bg-aqua')} */}
-          {/* {sale && badge('Sale!', 'bg-pink')} */}
         </figure>
       </Link>
     </div>

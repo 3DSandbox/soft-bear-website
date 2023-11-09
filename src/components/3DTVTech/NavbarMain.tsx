@@ -55,7 +55,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
   // backuop navbar เดิมใส
   // const fixedClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed ';
 
-  const fixedClassName = 'navbar navbar-expand-lg center-nav bg-black bg-opacity-50  navbar-dark navbar-clone fixed ';
+  const fixedClassName = 'navbar navbar-expand-lg center-nav bg-white bg-opacity-100 navbar-dark navbar-clone fixed shadow-lg ';
 
   // render inner nav item links
   const renderLinks = (links: LinkType[]) => {
@@ -68,13 +68,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100 ">
-        {/* <NextLink href="/" title={<img alt="logo" src={`/img/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} /> */}
-        {/* <img src='/img/photos/3DTVTech/logo/logovector.png' srcSet='/img/photos/3DTVTech/logo/logovector@x2.png 2x mt-2' className=''
-        style={{
-          width: auto,
-          height: auto
-        }}
-        ></img> */}
+   
 
         <Link href="/">
           <Image src={LOGO.src} width={192} height={56} alt="3DTV-Tech Logo"></Image>
@@ -135,11 +129,6 @@ const NavbarMain: FC<NavbarProps> = (props) => {
               </Link>
             </li>
 
-            {/* <li className="nav-item">
-              <a href="/home" className="nav-link m-0 px-5">
-                Portfolio
-              </a>
-            </li> */}
 
             {/* ===================== blocks nav item ===================== */}
             <li className="nav-item">
@@ -159,22 +148,6 @@ const NavbarMain: FC<NavbarProps> = (props) => {
 
 
             {/* ===================== blocks nav item ===================== */}
-
-            {/* ปิดชั่วคราว */}
-            {/* <li className="nav-item">
-              <Link href="/career" className="nav-link m-0 px-5 fs-22 d-md-none" style={{fontSize:"18px"}}>
-                <div className="d-flex align-items-center gap-3">
-                  <Icon icon="material-symbols:info" width="25" />
-                  Career
-                </div>
-              </Link>
-
-              <Link href="/career" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px"}}>
-              Career
-              </Link>
-            </li> */}
-
-
             <li className="nav-item">
               <Link href="/aboutus" className="nav-link px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3" style={{color:"#FF8812"}}>
@@ -194,44 +167,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
       {/* ============= right side header content ============= */}
       <div className={navOtherClass}>
         <ul className="navbar-nav flex-row align-items-center ms-auto">
-          {/* ============= language dropdwown ============= */}
-
-          {/* ============= info button ============= */}
-          {/* {info && (
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info">
-                <i className="uil uil-info-circle" />
-              </a>
-            </li>
-          )} */}
-
-          {/* ============= search icon button ============= */}
-          {/* {search && (
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search">
-                <i className="uil uil-search" />
-              </a>
-            </li>
-          )} */}
-
-          {/* ============= contact button ============= */}
-          {/* {button && <li className="nav-item d-none d-md-block">{button}</li>} */}
-
-          {/* ============= shopping cart button ============= */}
-          {/* {cart && (
-            <li className="nav-item">
-              <a
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvas-cart"
-                className="nav-link position-relative d-flex flex-row align-items-center"
-              >
-                <i className="uil uil-shopping-cart" />
-                <span className="badge badge-cart bg-primary">3</span>
-              </a>
-            </li>
-          )} */}
-
-          {/* ============= social icons link ============= */}
+         
 
           {/* ============= humburger button for small device ============= */}
           <li className="nav-item d-lg-none">
@@ -271,8 +207,8 @@ NavbarMain.defaultProps = {
   search: false,
   language: false,
   stickyBox: true,
-  navOtherClass: 'navbar-other w-100 d-flex ms-auto',
-  navClassName: 'navbar navbar-expand-lg center-nav transparent navbar-light'
+  navOtherClass: 'navbar-other w-100 d-flex ms-auto ',
+  navClassName: 'navbar navbar-expand-lg center-nav transparent navbar-light '
 };
 
 export default NavbarMain;

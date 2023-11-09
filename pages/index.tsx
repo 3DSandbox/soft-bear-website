@@ -1,8 +1,6 @@
 
 import { Fragment, useEffect } from 'react';
 // -------- custom component -------- //
-import { CategoryHome, ServiceHome } from 'components/3DTVTech';
-import Blognewshome from 'components/3DTVTech/Home/BlogNews/BlogNewsHome';
 import NavbarMain from 'components/3DTVTech/NavbarMain';
 import { BannerMain } from 'components/blocks/hero';
 import PageProgress from 'components/common/PageProgress';
@@ -17,7 +15,8 @@ import WhoweareComp from 'components/3DTVTech/Home/Whoyouare/whoyouare';
 import { GoogleAnalytics } from 'nextjs-google-analytics';
 import Head from 'next/head';
 import { NextPage } from 'next/types';
-import TechnologyConsulting from 'components/3DTVTech/Home/Category/CategoryHome';
+import TechnologyConsulting from 'components/3DTVTech/Home/Category/TechnologyConsulting';
+import CaseStudy from 'components/3DTVTech/Home/Service/CaseStudy';
 
 // ..
 
@@ -63,10 +62,10 @@ const Home: NextPage = () => {
           <div
             className="content py-2"
             style={{
-              backgroundColor: '#69c0ff38'
+              backgroundColor: '#F3F3F4'
             }}
           >
-            <ServiceHome />
+            <CaseStudy />
 
             {/* ========== latest projects carousel section ========== */}
           </div>

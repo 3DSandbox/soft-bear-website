@@ -1,14 +1,14 @@
-import ServiceHome from './Home/Service/ServiceHome';
+import CaseStudy from './Home/Service/CaseStudy';
 import ServiceSlide from './Home/Service/ServiceSlide';
 import ServiceCardSlide from './Home/Service/ServiceCardSlide';
 
-import TechnologyConsulting from './Home/Category/CategoryHome';
+import TechnologyConsulting from './Home/Category/TechnologyConsulting';
 
 
 
 
 export {
-    ServiceHome as ServiceHome,
+    CaseStudy as ServiceHome,
     ServiceSlide,
     ServiceCardSlide,
     TechnologyConsulting as CategoryHome
