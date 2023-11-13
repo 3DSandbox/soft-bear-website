@@ -609,3 +609,10 @@ export { SOFTBEARBANNER01, SOFTBEARBANNER02 };
 import BLOGMOCK from './photos/Soft-Bear/blog/mock-blog.webp';
 
 export {BLOGMOCK}
+
+
+//temporary mock
+import AITRAININGMOCK01 from './photos/soft-bear/ai-training/mockaitraining01.webp';
+import AITRAININGMOCK02 from './photos/soft-bear/ai-training/mockaitraining02.webp';
+
+export {AITRAININGMOCK01,AITRAININGMOCK02}

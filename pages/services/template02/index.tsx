@@ -7,11 +7,14 @@ import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import {
+  AITRAININGMOCK01,
+  AITRAININGMOCK02,
   IC_ATTRACTIVE,
   IC_INTERACTIVEHARDWARE,
   IC_REACHTHETARGETHARDWARE,
   IMG_HARDWARE,
-  SOFTBEARBANNER01
+  SOFTBEARBANNER01,
+  VIRTUALEXPERIENCE
 } from 'assets';
 import Head from 'next/head';
 import { servicesType } from 'data/Soft-Bear/Services/dataList';
@@ -131,7 +134,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  IoT - Internet of Things
+                  AI Training
                 </h2>
               </div>
 
@@ -167,7 +170,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  IoT - Internet of Things
+                  AI Training
                 </h2>
               </div>
 
@@ -195,7 +198,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Internet of Things (IoT)
+                  AI training Machine Learning Deep Learning training
                 </h1>
 
                 {/*header v pc */}
@@ -205,7 +208,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Internet of Things (IoT)
+                  AI training Machine Learning Deep Learning training
                 </h1>
 
                 <div
@@ -222,19 +225,21 @@ const Page: FC = () => {
 
                   {/* v pc */}
                   <p className="fs-18 d-none d-md-block mt-2">
-                    ระบบของอุปกรณ์ที่สามารถเชื่อมต่อกับอินเทอร์เน็ต
-                    สามารถรับส่งข้อมูลและประมวลผลข้อมูลเพื่อใช้ในการควบคุมหรือจัดการต่าง ๆ
-                    ได้อัตโนมัติโดยไม่ต้องมีผู้ใช้เข้ามาเกี่ยวข้องโดยตรงทุกครั้ง
+                    การใช้งาน AI ในธุรกิจ หรือหน่วยงานต่างๆ สามารถเป็นไปอย่างเฉพาะทางจึงต้องมีการ ฝึก AI
+                    ให้ตรงกับความต้องการเฉพาะแต่ละอย่าง การฝึก AI จึงเป็นขั้นตอนหนึ่งที่ต้องการผู้มีความรู้ความเข้าใจ
+                    เพื่อให้การฝึกนี้เป็นไปอย่างมีประมิทธิภาพ มีความถูกต้องแม่นยำสูง โดยการฝึกจะทำได้โดยให้ AI
+                    รู้จักกับข้อมูลจำนวนมากที่มีความสำคัญกับการตัดสินใจ ความสัมพันธ์ในรูปแบบต่างๆ ที่ครอบคลุม เมื่อ AI
+                    ได้เจอโจทย์ใหม่ก็จะยังคงมีความสามารถในการตัดสินใจได้อย่างถูกต้อง
                   </p>
                   <p className="fs-18 d-none d-md-block mt-2">
-                    นำไปใช้ในการควบคุมและตรวจสอบสถานะของอุปกรณ์หรือสิ่งของต่าง ๆ ได้อย่างมีประสิทธิภาพ
-                    ซึ่งสามารถใช้ได้กับอุปกรณ์ทั่วไป ตั้งแต่อุปกรณ์ใช้งานในบ้าน สำนักงาน โรงงาน ไปจนถึงระบบสารธารณะต่างๆ
+                    {/* นำไปใช้ในการควบคุมและตรวจสอบสถานะของอุปกรณ์หรือสิ่งของต่าง ๆ ได้อย่างมีประสิทธิภาพ
+                    ซึ่งสามารถใช้ได้กับอุปกรณ์ทั่วไป ตั้งแต่อุปกรณ์ใช้งานในบ้าน สำนักงาน โรงงาน ไปจนถึงระบบสารธารณะต่างๆ */}
                   </p>
 
                   <p className="fs-18 d-none d-md-block mt-2">
-                    นอกจากนี้ เรายังสามารถเก็บข้อมูลจากอุปกรณ์เหล่านี้เพื่อนำข้อมูลเหล่านั้น เพื่อนำมาวิเคราะต่อยอด เช่น
+                    {/* นอกจากนี้ เรายังสามารถเก็บข้อมูลจากอุปกรณ์เหล่านี้เพื่อนำข้อมูลเหล่านั้น เพื่อนำมาวิเคราะต่อยอด เช่น
                     การวิเคราะห์ข้อมูล(Data Analysis) การประเมินการซ่อมบำรุง
-                    การปรับปรุงระบบเพื่อให้มีประสิทธิภาพมากยิ่งขึ้น
+                    การปรับปรุงระบบเพื่อให้มีประสิทธิภาพมากยิ่งขึ้น */}
                   </p>
                 </div>
               </div>
@@ -262,6 +267,7 @@ const Page: FC = () => {
                            
                             </p> */}
             </div>
+            <hr className="my-5"></hr>
           </div>
         </section>
 
@@ -271,6 +277,30 @@ const Page: FC = () => {
             <ServiceDetailFeatures />
           </div>
         </section> */}
+
+        <section>
+          <div className="container p-7">
+            <div className="row">
+              <div className="col-6">
+                <h2 className=" text-main">บริการของเรา</h2>
+                <p className='mt-5 fs-18'>
+                  รับเทรน AI ตามความต้องการของลูกค้า โดยสามารถพัฒนาร่วมไปกับระบบอื่นที่ต้องการ
+                  สามารถออกไปร่วมกับระบบเพื่อการใช้งานต่อ เช่น มีcommand เพิ่มเติมเพื่อสั่งงานจนจบ process
+                  ทั้งหมดที่ลูกค้าต้องการ มี Dashboard สรุปผล และรายงานสถิติที่ต้องการ{' '}
+                </p>
+              </div>
+         
+              <div className="col-6">
+              <button type="button" className="btn" style={{
+                backgroundColor: '#FF8812',
+                color: 'white'
+              }}>ติดต่อเรา
+              </button>
+                
+              </div>
+            </div>
+          </div>
+        </section>
 
         <div className="container">
           <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Industries</h2>
@@ -297,11 +327,10 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Manufacturing / การผลิต</h3>
+                <h3 className="fs-22 text-main">AI Vision Training</h3>
                 <p className="fs-18 mx-3">
-                  ในขั้นตอนการผลิตที่มีการใช้เครื่องจักรอุปกรณ์ต่างๆ IoT สามารถตรวจจับข้อมูลต่างๆ
-                  ตลอดขั้้นตอนว่าเป้นไปอย่างเรียบร้อย สามารถคาดการณ์การบำรุงรักษา
-                  ไปจนถึงตรวจสอบผลผลิตที่ได้อย่างมีประสิทธิภาพ
+                  การฝึก AI ในการเข้าใจ รู้จัก ระบุคุณสมบัติ จากข้อมูลภาพนิ่งหรือภาพเคลื่อนไหว การนำไปประยุกต์ใช้เช่น
+                  การจำแนกบุคคล, เพศ, อายุ และใบหน้า เป็นต้น
                 </p>
               </div>
 
@@ -314,10 +343,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Retails / ค้าปลีก</h3>
+                <h3 className="fs-22 text-main">Natural Language Processing (NLP) Training:</h3>
                 <p className="fs-18 mx-3">
-                  การจัดการสต๊อค คลังสินค้า เพื่อปรับปริมาณสินค้าในคลังอย่างมีประสิทธิภาพ ข้อมุลสินค้าเข้าออก รวมไปถึง
-                  รวบรวมข้อมูล report ที่มีประสิทธิภาพ
+                  การฝึก AI ในรูปแบบของภาษามนุษย์ที่ใช้ การโต้ตอบในลักษณะ Chatbot การแปลภาษาต่างๆ เป้นต้น
                 </p>
               </div>
 
@@ -330,10 +358,10 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Agriculture / การเกษตร</h3>
+                <h3 className="fs-22 text-main">Speech and Audio Training:</h3>
                 <p className="fs-18 mx-3">
-                  การเกษตรยุคสมัยใหม่ ไม่ได้ขึ้นอยู่กับฟ้าฝน หรือสิ่งที่คาดการณ์ไม่ได้อีกต่อไป ตรงกันข้ามข้อมูลต่างๆ
-                  จะถูกเข้าถึง ด้วย IOT ช่วยให้เกษตรกร เพิ่มประสิทธิภาพการชลประทาน การให้ปุ๋ย และการควบคุมศัตรูพืช
+                  การฝึก AI ในการวิเคราะห์และสร้าง ในรูปแบบของข้อมูลเสียง การนำไปใช้เช่น การจดจำเสียง การสังเคราะห์เสียง
+                  ไปจนถึงระบบช่วยสั่งงานด้วยเสียงเป็นต้น
                 </p>
               </div>
 
@@ -346,10 +374,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Transportation and Logistics: การคมนาคมขนส่ง</h3>
+                <h3 className="fs-22 text-main">Recommendation Systems Training:</h3>
                 <p className="fs-18 mx-3">
-                  IOT สามารถช่วยตั้งแต่ติดตามสินค้า การจัดส่งถึงมือลูกค้า ไปจนถึงตรวจสอบประสิทธิภาพของยานพาหนะ
-                  พฤติกรรมของผู้ขับขี่ และการสิ้นเปลืองน้ำมันเชื้อเพลิง เพื่อเพิ่มประสิทธิภาพการดำเนินงานด้านการขนส่ง
+                  การฝึก AI เพื่อการโต้ตอบและแนะนำผลิตภัณ์ เช่น การแนะนำสินค้าบน social plateform
                 </p>
               </div>
 
@@ -362,13 +389,10 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">
-                  Healthcare <br />
-                  สาธารณะสุข
-                </h3>
+                <h3 className="fs-22 text-main">Healthcare AI Training:</h3>
                 <p className="fs-18 mx-3">
-                  ในด้านสาธารณะสุข IOT สามารถประยุกต์ใช้ได้ตั้งแต่ตรวจสอบผู้ป่วยระยะไกล การจัดการยา
-                  ไปจนถึงการติดตามทรัพย์สินของ หน่วยงานสาธารณะสุข
+                  การฝึก AI ในทางสารธารณะสุข การแพทย์ สามารถวิเคราะห์ข้อมูลคนไข้ โดยเริ่มที่ข้อมูลทั่วไป นำมาวินิจฉัยโรค
+                  หรือความผิดปกติเบื้องต้น บันทึกข้อมูลสุขภาพบน cloud โดยสามารถดึงข้อมูลมาใช้ได้ทันที
                 </p>
               </div>
 
@@ -382,10 +406,53 @@ const Page: FC = () => {
                   }}
                 ></h3>
                 <h3 className="fs-22 text-main">อื่นๆ</h3>
-                <p className="fs-18 mx-3">
-                  การใช้งาน IoT ในรูปแบบอื่นๆ เช่น เมืองอัจฉริยะ การทำเหมือง และ อื่นๆ ที่มีการติดตั้งอุปกรณ์ที่เชื่อม
-                  ต่อกับอินเทอร์เน็ตได้
-                </p>
+                <p className="fs-18 mx-3">การฝึก AI เพื่อประยุกต์ใช้ในรูปแบบต่างๆ ความต้องการของผู้ใช้</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="container py-5">
+            <h2 className="text-main text-center">ตัวอย่างการใช้งาน AI Training</h2>
+            <div className="container">
+              <div className="row">
+                <div className="col-12 d-flex justify-content-center">
+                  <div className="col-3">
+                    <figure className="rounded">
+                      <Image
+                        src={AITRAININGMOCK01}
+                        width={50}
+                        height={50}
+                        alt="Virtual Experience"
+                        className=""
+                        style={{
+                          width: '100',
+                          height: '100'
+                        }}
+                      />
+                      <figcaption className="fs-18 my-2 text-center">การแยกแยะ เพศ เสื้อผ้า เครื่องแต่งกาย</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div className="mt-5 col-12 d-flex justify-content-center ">
+                  <div className="col-3">
+                    <figure className="rounded">
+                      <Image
+                        src={AITRAININGMOCK02}
+                        width={50}
+                        height={50}
+                        alt="Virtual Experience"
+                        className=""
+                        style={{
+                          width: '100',
+                          height: '100'
+                        }}
+                      />
+                      <figcaption className="fs-18 my-2 text-center">การแยกแยะอารมณ์ หน้าตา</figcaption>
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
