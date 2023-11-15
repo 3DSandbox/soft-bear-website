@@ -7,14 +7,11 @@ import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import {
-  AITRAININGMOCK01,
-  AITRAININGMOCK02,
   IC_ATTRACTIVE,
   IC_INTERACTIVEHARDWARE,
   IC_REACHTHETARGETHARDWARE,
   IMG_HARDWARE,
-  SOFTBEARBANNER01,
-  VIRTUALEXPERIENCE
+  SOFTBEARBANNER01
 } from 'assets';
 import Head from 'next/head';
 import { servicesType } from 'data/Soft-Bear/Services/dataList';
@@ -134,7 +131,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  AI Training
+                  Web Application
                 </h2>
               </div>
 
@@ -170,7 +167,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  AI Training
+                  Web Application
                 </h2>
               </div>
 
@@ -198,7 +195,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  AI training Machine Learning Deep Learning training
+                  Web Application for every solution
                 </h1>
 
                 {/*header v pc */}
@@ -208,7 +205,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  AI training Machine Learning Deep Learning training
+                  Web Application for every solution
                 </h1>
 
                 <div
@@ -217,29 +214,25 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
+                    {/* v phone */}
                   <p className="fs-18 d-md-none">
-                    ระบบของอุปกรณ์ที่สามารถเชื่อมต่อกับอินเทอร์เน็ต
-                    สามารถรับส่งข้อมูลและประมวลผลข้อมูลเพื่อใช้ในการควบคุมหรือจัดการต่าง ๆ
-                    ได้อัตโนมัติโดยไม่ต้องมีผู้ใช้เข้ามาเกี่ยวข้องโดยตรงทุกครั้ง
+                  เว็บแอปพลิเคชัน หรือที่เรียกง่ายๆ ว่า "เว็บแอป" คือแอปพลิเคชันซอฟต์แวร์หรือโปรแกรมที่สามารถเข้าถึงได้และทำงานภายในเว็บเบราว์เซอร์ 
+สามารถมีการประมวลผลได้อย่างมีประสิทธิภาพเช่นเดียวกับการทำงานของโปรแกรม มีการสั่งงานที่ซับซ้อน สามารถมีการทำงานผ่าน cloud เพื่อการเก็บและเข้าถึงข้อมูลได้จากทุกที่
+
                   </p>
 
-                 
+                  {/* v pc */}
                   <p className="fs-18 d-none d-md-block mt-2">
-                    การใช้งาน AI ในธุรกิจ หรือหน่วยงานต่างๆ สามารถเป็นไปอย่างเฉพาะทางจึงต้องมีการ ฝึก AI
-                    ให้ตรงกับความต้องการเฉพาะแต่ละอย่าง การฝึก AI จึงเป็นขั้นตอนหนึ่งที่ต้องการผู้มีความรู้ความเข้าใจ
-                    เพื่อให้การฝึกนี้เป็นไปอย่างมีประมิทธิภาพ มีความถูกต้องแม่นยำสูง โดยการฝึกจะทำได้โดยให้ AI
-                    รู้จักกับข้อมูลจำนวนมากที่มีความสำคัญกับการตัดสินใจ ความสัมพันธ์ในรูปแบบต่างๆ ที่ครอบคลุม เมื่อ AI
-                    ได้เจอโจทย์ใหม่ก็จะยังคงมีความสามารถในการตัดสินใจได้อย่างถูกต้อง
+                  เว็บแอปพลิเคชัน หรือที่เรียกง่ายๆ ว่า "เว็บแอป" คือแอปพลิเคชันซอฟต์แวร์หรือโปรแกรมที่สามารถเข้าถึงได้และทำงานภายในเว็บเบราว์เซอร์ 
+สามารถมีการประมวลผลได้อย่างมีประสิทธิภาพเช่นเดียวกับการทำงานของโปรแกรม มีการสั่งงานที่ซับซ้อน สามารถมีการทำงานผ่าน cloud เพื่อการเก็บและเข้าถึงข้อมูลได้จากทุกที่
+
                   </p>
                   <p className="fs-18 d-none d-md-block mt-2">
-                    {/* นำไปใช้ในการควบคุมและตรวจสอบสถานะของอุปกรณ์หรือสิ่งของต่าง ๆ ได้อย่างมีประสิทธิภาพ
-                    ซึ่งสามารถใช้ได้กับอุปกรณ์ทั่วไป ตั้งแต่อุปกรณ์ใช้งานในบ้าน สำนักงาน โรงงาน ไปจนถึงระบบสารธารณะต่างๆ */}
+                  เว็บแอปพลิเคชันนั้นได้รับความนิยมเพิ่มมากขึ้นเนื่องจากไม่ขึ้นอยู่กับแพลตฟอร์มและสามารถเข้าถึงได้จากอุปกรณ์ต่าง ๆ ที่มีการเชื่อมต่ออินเทอร์เน็ต รวมถึงคอมพิวเตอร์ สมาร์ทโฟน และแท็บเล็ต
                   </p>
 
                   <p className="fs-18 d-none d-md-block mt-2">
-                    {/* นอกจากนี้ เรายังสามารถเก็บข้อมูลจากอุปกรณ์เหล่านี้เพื่อนำข้อมูลเหล่านั้น เพื่อนำมาวิเคราะต่อยอด เช่น
-                    การวิเคราะห์ข้อมูล(Data Analysis) การประเมินการซ่อมบำรุง
-                    การปรับปรุงระบบเพื่อให้มีประสิทธิภาพมากยิ่งขึ้น */}
+
                   </p>
                 </div>
               </div>
@@ -263,11 +256,10 @@ const Page: FC = () => {
                 />
               </div>
               {/* v phone */}
-              {/* <p className="fs-18 col-12 col-md-6 mt-7 mt-md-0 d-md-none">
-                           
-                            </p> */}
+              <p className="fs-18 col-12 col-md-6 mt-7 mt-md-0 d-md-none">
+              เว็บแอปพลิเคชันนั้นได้รับความนิยมเพิ่มมากขึ้นเนื่องจากไม่ขึ้นอยู่กับแพลตฟอร์มและสามารถเข้าถึงได้จากอุปกรณ์ต่าง ๆ ที่มีการเชื่อมต่ออินเทอร์เน็ต รวมถึงคอมพิวเตอร์ สมาร์ทโฟน และแท็บเล็ต
+                            </p>
             </div>
-            <hr className="my-5"></hr>
           </div>
         </section>
 
@@ -278,33 +270,8 @@ const Page: FC = () => {
           </div>
         </section> */}
 
-        <section>
-          <div className="container p-7">
-            <div className="row">
-              <div className="col-6 bg-">
-                <h2 className=" text-main">บริการของเรา</h2>
-                <p className='mt-5 fs-18'>
-                  รับเทรน AI ตามความต้องการของลูกค้า โดยสามารถพัฒนาร่วมไปกับระบบอื่นที่ต้องการ
-                  สามารถออกไปร่วมกับระบบเพื่อการใช้งานต่อ เช่น มีcommand เพิ่มเติมเพื่อสั่งงานจนจบ process
-                  ทั้งหมดที่ลูกค้าต้องการ มี Dashboard สรุปผล และรายงานสถิติที่ต้องการ{' '}
-                </p>
-              </div>
-         
-              <div className="col-6 d-flex justify-content-center align-items-center">
-
-              <button type="button" className="btn" style={{
-                backgroundColor: '#FF8812',
-                color: 'white'
-              }}>ติดต่อเรา
-              </button>
-                
-              </div>
-            </div>
-          </div>
-        </section>
-
         <div className="container">
-          <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Industries</h2>
+          <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Why Web Application</h2>
           <hr
             className="p-0 "
             style={{
@@ -328,10 +295,11 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">AI Vision Training</h3>
+                <h3 className="fs-22 text-main">Accessibility</h3>
                 <p className="fs-18 mx-3">
-                  การฝึก AI ในการเข้าใจ รู้จัก ระบุคุณสมบัติ จากข้อมูลภาพนิ่งหรือภาพเคลื่อนไหว การนำไปประยุกต์ใช้เช่น
-                  การจำแนกบุคคล, เพศ, อายุ และใบหน้า เป็นต้น
+                เข้าถึงได้ผ่านเว็บเบราว์เซอร์ ผู้ใช้สามารถใช้แอปพลิเคชันได้
+จากทุกที่ที่มีการเชื่อมต่อ
+อินเทอร์เน็ต ไม่จำเป็นต้องดาวน์โหลด หรือติดตั้งเว็บแอปพลิเคชัน
                 </p>
               </div>
 
@@ -344,9 +312,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Natural Language Processing (NLP) Training:</h3>
+                <h3 className="fs-22 text-main">Platform Independence</h3>
                 <p className="fs-18 mx-3">
-                  การฝึก AI ในรูปแบบของภาษามนุษย์ที่ใช้ การโต้ตอบในลักษณะ Chatbot การแปลภาษาต่างๆ เป้นต้น
+                การใช้งานไม่ได้ขึ้นอยู่กับกับระบบปฏิบัติ การหรืออุปกรณ์เฉพาะ สามารถใช้บน Windows, macOS, Linux, Android, iOS และแพลตฟอร์มอื่น ๆ โดยไม่ต้องดัดแปลง
                 </p>
               </div>
 
@@ -359,10 +327,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Speech and Audio Training:</h3>
+                <h3 className="fs-22 text-main">Work on Cloud</h3>
                 <p className="fs-18 mx-3">
-                  การฝึก AI ในการวิเคราะห์และสร้าง ในรูปแบบของข้อมูลเสียง การนำไปใช้เช่น การจดจำเสียง การสังเคราะห์เสียง
-                  ไปจนถึงระบบช่วยสั่งงานด้วยเสียงเป็นต้น
+                การใช้งานข้อมูลบน cloud ซึ่งมีข้อได้เปรียบมากมาย ไม่ว่าจะเป็นการเข้าถึงได้จากทุกที่ การอัพเดทข้อมูลที่เป็นข้อมูลชุดเดียวกันตลอดเวลา ไปจนถึงความปลอดภัยในการเก็บข้อมูล
                 </p>
               </div>
 
@@ -375,9 +342,10 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Recommendation Systems Training:</h3>
+                <h3 className="fs-22 text-main">Dynamic Content</h3>
                 <p className="fs-18 mx-3">
-                  การฝึก AI เพื่อการโต้ตอบและแนะนำผลิตภัณ์ เช่น การแนะนำสินค้าบน social plateform
+                สามารถแสดงเนื้อหาอย่างยืดหยุ่น
+การแก้ไขเนื้อหาและตอบสนองต่อผู้ใช้สามารถทำได้แบบ realtime 
                 </p>
               </div>
 
@@ -390,10 +358,12 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Healthcare AI Training:</h3>
+                <h3 className="fs-22 text-main">
+                Interactivity:
+                </h3>
                 <p className="fs-18 mx-3">
-                  การฝึก AI ในทางสารธารณะสุข การแพทย์ สามารถวิเคราะห์ข้อมูลคนไข้ โดยเริ่มที่ข้อมูลทั่วไป นำมาวินิจฉัยโรค
-                  หรือความผิดปกติเบื้องต้น บันทึกข้อมูลสุขภาพบน cloud โดยสามารถดึงข้อมูลมาใช้ได้ทันที
+                สามารถรถโต้ตอบได้แบบ realtime และตอบโจทย์การโต้ตอบได้
+มากมาย หลากหลายรูปแบบ 
                 </p>
               </div>
 
@@ -406,54 +376,10 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">อื่นๆ</h3>
-                <p className="fs-18 mx-3">การฝึก AI เพื่อประยุกต์ใช้ในรูปแบบต่างๆ ความต้องการของผู้ใช้</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="container py-5">
-            <h2 className="text-main text-center">ตัวอย่างการใช้งาน AI Training</h2>
-            <div className="container">
-              <div className="row">
-                <div className="col-12 d-flex justify-content-center">
-                  <div className="col-3">
-                    <figure className="rounded">
-                      <Image
-                        src={AITRAININGMOCK01}
-                        width={50}
-                        height={50}
-                        alt="Virtual Experience"
-                        className=""
-                        style={{
-                          width: '100',
-                          height: '100'
-                        }}
-                      />
-                      <figcaption className="fs-18 my-2 text-center">การแยกแยะ เพศ เสื้อผ้า เครื่องแต่งกาย</figcaption>
-                    </figure>
-                  </div>
-                </div>
-                <div className="mt-5 col-12 d-flex justify-content-center ">
-                  <div className="col-3">
-                    <figure className="rounded">
-                      <Image
-                        src={AITRAININGMOCK02}
-                        width={50}
-                        height={50}
-                        alt="Virtual Experience"
-                        className=""
-                        style={{
-                          width: '100',
-                          height: '100'
-                        }}
-                      />
-                      <figcaption className="fs-18 my-2 text-center">การแยกแยะอารมณ์ หน้าตา</figcaption>
-                    </figure>
-                  </div>
-                </div>
+                <h3 className="fs-22 text-main">Security</h3>
+                <p className="fs-18 mx-3">
+                มีความปลิดภัยที่เป็นที่ยอมรับโดยทั่วไป เช่น การส่งข้อมูลที่ปลอดภัย (HTTPS) การตรวจสอบสิทธิ์ และการอนุญาต แลพการปกป้องข้อมูลผู้ใช้
+                </p>
               </div>
             </div>
           </div>
