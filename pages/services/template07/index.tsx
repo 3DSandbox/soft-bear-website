@@ -11,7 +11,14 @@ import {
   IC_INTERACTIVEHARDWARE,
   IC_REACHTHETARGETHARDWARE,
   IMG_HARDWARE,
-  SOFTBEARBANNER01
+  SOFTBEARBANNER01,
+  TYPEOFAPPLICATIONDEVELOPMENT,
+  TYPEOFBUSINESSMATCHINGPLATFORM,
+  TYPEOFLEARNINGMANAGEMENTSYSTEM,
+  TYPEOFPRESSTOPLAY,
+  TYPEOFPRESSTORANDOM,
+  TYPEOFWEBDEVELOPMENT,
+  TYPEOFZEOSCOPE
 } from 'assets';
 import Head from 'next/head';
 import { servicesType } from 'data/Soft-Bear/Services/dataList';
@@ -113,7 +120,7 @@ const Page: FC = () => {
           }}
         > */}
 
-        {/* v มือถือ */}
+        {/* v pc */}
         <section
           className="wrapper bg-image  d-md-none rounded"
           data-aos="zoom-up"
@@ -131,7 +138,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  IoT - Internet of Things
+                  Business Matching Find. Connect. Prosper.
                 </h2>
               </div>
 
@@ -149,7 +156,7 @@ const Page: FC = () => {
           </div>
         </section>
 
-        {/* v pc */}
+        {/* v phone */}
         <section
           className="wrapper bg-image d-none d-md-block rounded"
           data-aos="zoom-up"
@@ -167,7 +174,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  IoT - Internet of Things
+                  Business Matching Find. Connect. Prosper.
                 </h2>
               </div>
 
@@ -195,7 +202,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Internet of Things (IoT)
+                  Online Business Matching ระบบจับคู่เจรจาธรุกิจ ที่สมบรูณ์ที่สุด สร้างโอกาสทางธุรกิจร่วมกัน
                 </h1>
 
                 {/*header v pc */}
@@ -205,7 +212,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Internet of Things (IoT)
+                  Online Business Matching ระบบจับคู่เจรจาธรุกิจ ที่สมบรูณ์ที่สุด สร้างโอกาสทางธุรกิจร่วมกัน
                 </h1>
 
                 <div
@@ -216,28 +223,53 @@ const Page: FC = () => {
                 >
                   {/* v phone */}
                   <p className="fs-18 d-md-none">
-                    ระบบของอุปกรณ์ที่สามารถเชื่อมต่อกับอินเทอร์เน็ต
-                    สามารถรับส่งข้อมูลและประมวลผลข้อมูลเพื่อใช้ในการควบคุมหรือจัดการต่าง ๆ
-                    ได้อัตโนมัติโดยไม่ต้องมีผู้ใช้เข้ามาเกี่ยวข้องโดยตรงทุกครั้ง
+                    Business Matching เปรียบเสมือนสะพานเชื่อมธรุกิจ สร้างโอกาสทางและการค้าความร่วมมือ ทางธุรกิจ
+                    ประโยชน์ของ Online Business Matching
+                    <ul>
+                      <li>
+                        Efficiency สามารถค้นหาจากระบบฐานข้อมูลรวม เพื่อหาคู่เจรจาที่ใช้ได้ทันที
+                        ประหยัดทั้งเวลาและค่าใช้จ่าย
+                      </li>
+                      <li>Global Reach เนื่องจากเป็นการเจรจาออนไลน์ จึงสามารถเข้าร่วมได้จากทั่วโลก </li>
+                      <li>
+                        Targeted Connections ผู้เข้าร่วมสามารถกำหนดความต้องทางธรุกิจได้
+                        สามารถเลือกคู่เจรจาที่ตรงกับความต้องการจริงๆ{' '}
+                      </li>
+                      <li>Cost Effective ประหยัด เนื่องจากสามารถเข้าได้จาก Notebook หรือโทรศัพท์ </li>
+                      <li>
+                        Visibility and Networking คู่เจรจาสามารถแสดงผลิตภัณฑ์หรือผลงานบนระบบ Business Matching
+                        เพื่อดึงดูดคู่เจรจาอื่นได้ เป็นการเพิ่มโอกาสทางการค้า
+                      </li>
+                    </ul>
                   </p>
 
                   {/* v pc */}
                   <p className="fs-18 d-none d-md-block mt-2">
-                    ระบบของอุปกรณ์ที่สามารถเชื่อมต่อกับอินเทอร์เน็ต
-                    สามารถรับส่งข้อมูลและประมวลผลข้อมูลเพื่อใช้ในการควบคุมหรือจัดการต่าง ๆ
-                    ได้อัตโนมัติโดยไม่ต้องมีผู้ใช้เข้ามาเกี่ยวข้องโดยตรงทุกครั้ง
+                    Business Matching เปรียบเสมือนสะพานเชื่อมธรุกิจ สร้างโอกาสทางและการค้าความร่วมมือ ทางธุรกิจ
+                    ประโยชน์ของ Online Business Matching
+                    <ul>
+                      <li>
+                        Efficiency สามารถค้นหาจากระบบฐานข้อมูลรวม เพื่อหาคู่เจรจาที่ใช้ได้ทันที
+                        ประหยัดทั้งเวลาและค่าใช้จ่าย
+                      </li>
+                      <li>Global Reach เนื่องจากเป็นการเจรจาออนไลน์ จึงสามารถเข้าร่วมได้จากทั่วโลก </li>
+                      <li>
+                        Targeted Connections ผู้เข้าร่วมสามารถกำหนดความต้องทางธรุกิจได้
+                        สามารถเลือกคู่เจรจาที่ตรงกับความต้องการจริงๆ{' '}
+                      </li>
+                      <li>Cost Effective ประหยัด เนื่องจากสามารถเข้าได้จาก Notebook หรือโทรศัพท์ </li>
+                      <li>
+                        Visibility and Networking คู่เจรจาสามารถแสดงผลิตภัณฑ์หรือผลงานบนระบบ Business Matching
+                        เพื่อดึงดูดคู่เจรจาอื่นได้ เป็นการเพิ่มโอกาสทางการค้า
+                      </li>
+                    </ul>
                   </p>
-                  {/* v pc */}
                   <p className="fs-18 d-none d-md-block mt-2">
-                    นำไปใช้ในการควบคุมและตรวจสอบสถานะของอุปกรณ์หรือสิ่งของต่าง ๆ ได้อย่างมีประสิทธิภาพ
-                    ซึ่งสามารถใช้ได้กับอุปกรณ์ทั่วไป ตั้งแต่อุปกรณ์ใช้งานในบ้าน สำนักงาน โรงงาน ไปจนถึงระบบสารธารณะต่างๆ
+                    ทางเรามีระบบ Business Matching ครบวงจร ตั้งแต่การลงทะเบียน การเก็บข้อมูล การประมวลผลข้อมูล
+                    การนัดหมาย ระบบการจองห้องเจรจา รวมทั้งระบบห้องเจรจาธุรกิจ
                   </p>
-                  {/* v pc */}
-                  <p className="fs-18 d-none d-md-block mt-2">
-                    นอกจากนี้ เรายังสามารถเก็บข้อมูลจากอุปกรณ์เหล่านี้เพื่อนำข้อมูลเหล่านั้น เพื่อนำมาวิเคราะต่อยอด เช่น
-                    การวิเคราะห์ข้อมูล(Data Analysis) การประเมินการซ่อมบำรุง
-                    การปรับปรุงระบบเพื่อให้มีประสิทธิภาพมากยิ่งขึ้น
-                  </p>
+
+                  <p className="fs-18 d-none d-md-block mt-2"></p>
                 </div>
               </div>
 
@@ -260,14 +292,11 @@ const Page: FC = () => {
                 />
               </div>
               {/* v phone */}
+              <p className="fs-18 col-12 col-md-6 mt-7 mt-md-0 d-md-none"></p>
 
-              <p className="fs-18 col-12 col-6 mt-7 mt-md-0 d-md-none">
-                นำไปใช้ในการควบคุมและตรวจสอบสถานะของอุปกรณ์หรือสิ่งของต่าง ๆ ได้อย่างมีประสิทธิภาพ
-                ซึ่งสามารถใช้ได้กับอุปกรณ์ทั่วไป ตั้งแต่อุปกรณ์ใช้งานในบ้าน สำนักงาน โรงงาน ไปจนถึงระบบสารธารณะต่างๆ
-              </p>
-              <p className="fs-18 col-12 col-6 mt-7 mt-md-0 d-md-none">
-                นอกจากนี้ เรายังสามารถเก็บข้อมูลจากอุปกรณ์เหล่านี้เพื่อนำข้อมูลเหล่านั้น เพื่อนำมาวิเคราะต่อยอด เช่น
-                การวิเคราะห์ข้อมูล(Data Analysis) การประเมินการซ่อมบำรุง การปรับปรุงระบบเพื่อให้มีประสิทธิภาพมากยิ่งขึ้น
+              <p className="fs-18 col-12 col-md-6 mt-7 mt-md-0 d-md-none">
+                ทางเรามีระบบ Business Matching ครบวงจร ตั้งแต่การลงทะเบียน การเก็บข้อมูล การประมวลผลข้อมูล การนัดหมาย
+                ระบบการจองห้องเจรจา รวมทั้งระบบห้องเจรจาธุรกิจ
               </p>
             </div>
           </div>
@@ -281,7 +310,7 @@ const Page: FC = () => {
         </section> */}
 
         <div className="container">
-          <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Industries</h2>
+          <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Features</h2>
           <hr
             className="p-0 "
             style={{
@@ -305,12 +334,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Manufacturing / การผลิต</h3>
-                <p className="fs-18 mx-3">
-                  ในขั้นตอนการผลิตที่มีการใช้เครื่องจักรอุปกรณ์ต่างๆ IoT สามารถตรวจจับข้อมูลต่างๆ
-                  ตลอดขั้้นตอนว่าเป้นไปอย่างเรียบร้อย สามารถคาดการณ์การบำรุงรักษา
-                  ไปจนถึงตรวจสอบผลผลิตที่ได้อย่างมีประสิทธิภาพ
-                </p>
+                <h3 className="fs-22 text-main">ระบบลงทะเบียนออนไลน์</h3>
+                <p className="fs-18 mx-3">เพื่อรับสมัครผู้ร่วมงาน 
+จัดทำระบบ Login</p>
               </div>
 
               {/* ic02 */}
@@ -322,10 +348,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Retails / ค้าปลีก</h3>
+                <h3 className="fs-22 text-main">ฟอร์มข้อมูล</h3>
                 <p className="fs-18 mx-3">
-                  การจัดการสต๊อค คลังสินค้า เพื่อปรับปริมาณสินค้าในคลังอย่างมีประสิทธิภาพ ข้อมุลสินค้าเข้าออก รวมไปถึง
-                  รวบรวมข้อมูล report ที่มีประสิทธิภาพ
+                เพื่อให้ผู้ร่วมงานกรอกข้อมูลธุรกิจ ข้อมูลผลิตภัณฑ์และความต้องการทางธรุกิจ
                 </p>
               </div>
 
@@ -338,11 +363,8 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Agriculture / การเกษตร</h3>
-                <p className="fs-18 mx-3">
-                  การเกษตรยุคสมัยใหม่ ไม่ได้ขึ้นอยู่กับฟ้าฝน หรือสิ่งที่คาดการณ์ไม่ได้อีกต่อไป ตรงกันข้ามข้อมูลต่างๆ
-                  จะถูกเข้าถึง ด้วย IOT ช่วยให้เกษตรกร เพิ่มประสิทธิภาพการชลประทาน การให้ปุ๋ย และการควบคุมศัตรูพืช
-                </p>
+                <h3 className="fs-22 text-main">การประมวลผลข้อมูล</h3>
+                <p className="fs-18 mx-3"> มีทั้งระบบจับคู่โดย Admin หรือระบบ Recommendation โดยการวิเคราะห์โปรไฟล์คู่เจรจา เพื่อแนะนำคู่เจรจาที่เหมาะสมที่สุด</p>
               </div>
 
               {/* ic04 */}
@@ -354,11 +376,8 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Transportation and Logistics: การคมนาคมขนส่ง</h3>
-                <p className="fs-18 mx-3">
-                  IOT สามารถช่วยตั้งแต่ติดตามสินค้า การจัดส่งถึงมือลูกค้า ไปจนถึงตรวจสอบประสิทธิภาพของยานพาหนะ
-                  พฤติกรรมของผู้ขับขี่ และการสิ้นเปลืองน้ำมันเชื้อเพลิง เพื่อเพิ่มประสิทธิภาพการดำเนินงานด้านการขนส่ง
-                </p>
+                <h3 className="fs-22 text-main">ระบบเลือกคู่เจรจาด้วยตนเอง</h3>
+                <p className="fs-18 mx-3">คู่เจรจาสามารถเลือกคู่เจรจาและกำหนดวันเวลาเองได้</p>
               </div>
 
               {/* ic05 */}
@@ -370,14 +389,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">
-                  Healthcare <br />
-                  สาธารณะสุข
-                </h3>
-                <p className="fs-18 mx-3">
-                  ในด้านสาธารณะสุข IOT สามารถประยุกต์ใช้ได้ตั้งแต่ตรวจสอบผู้ป่วยระยะไกล การจัดการยา
-                  ไปจนถึงการติดตามทรัพย์สินของ หน่วยงานสาธารณะสุข
-                </p>
+                <h3 className="fs-22 text-main">ระบบสื่อสารภายใน</h3>
+                <p className="fs-18 mx-3">เมื่อกำหนดคู่เจรจาแล้ว 
+ผู้เข้าเจรจาสามารถสื่อสารกับคู่เจรจา เพื่อหาวันนัดหมายกัน, พูดคุยกันผ่าน chat ได้</p>
               </div>
 
               {/* ic06 */}
@@ -389,20 +403,17 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">อื่นๆ</h3>
-                <p className="fs-18 mx-3">
-                  การใช้งาน IoT ในรูปแบบอื่นๆ เช่น เมืองอัจฉริยะ การทำเหมือง และ อื่นๆ ที่มีการติดตั้งอุปกรณ์ที่เชื่อม
-                  ต่อกับอินเทอร์เน็ตได้
-                </p>
+                <h3 className="fs-22 text-main">ระบบจัดการห้องเจรจา</h3>
+                <p className="fs-18 mx-3">เพื่อจัดการทรัพยากรต่างๆ เช่น ล่ามหรือห้องเจรจาได้อย่างมีประสิทธิภาพ</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* <section>
+        <section>
           <div className="container">
             <div className="mt-10 mt-md-3">
-              <h2 className="display-3 text-main text-center">Type of Hardware Development</h2>
+              <h2 className="display-3 text-main text-center">Type of Software Development</h2>
               <hr
                 className="p-0 "
                 style={{
@@ -416,62 +427,79 @@ const Page: FC = () => {
               <div className="grid grid-view projects-masonry">
                 <div className="container">
                   <div className="row g-8 g-lg-10 mt-1  justify-content-center">
-                  
                     <div className="project  col-md-6 col-xl-4">
                       <div className=" h-100">
                         <figure className="card-img-top rounded">
                           <Image
-                            src={TYPEOFZEOSCOPE}
+                            src={TYPEOFAPPLICATIONDEVELOPMENT}
                             width={285}
                             height={285}
-                            alt="Zeoscope"
+                            alt="Application Development"
                             style={{
                               width: '100%'
                             }}
                           />
                         </figure>
                         <div className="card-body p-5">
-                          <h3 className="fs-19 text-center text-main mb-0">Zeoscope</h3>
+                          <h3 className="fs-19 text-center text-main mb-0">Application Development</h3>
                         </div>
                       </div>
                     </div>
 
-                 
                     <div className="project  col-md-6 col-xl-4">
                       <div className="h-100">
                         <figure className="card-img-top rounded">
                           <Image
-                            src={TYPEOFPRESSTOPLAY}
+                            src={TYPEOFWEBDEVELOPMENT}
                             width={285}
                             height={285}
-                            alt="Press to Play"
+                            alt="Web Development"
                             style={{
                               width: '100%'
                             }}
                           />
                         </figure>
                         <div className="card-body p-5">
-                          <h3 className="fs-19 text-center text-main mb-0">Press to Play</h3>
+                          <h3 className="fs-19 text-center text-main mb-0">Web Development</h3>
                         </div>
                       </div>
                     </div>
 
-                 
                     <div className="project  col-md-6 col-xl-4">
                       <div className=" h-100">
                         <figure className="card-img-top rounded">
                           <Image
-                            src={TYPEOFPRESSTORANDOM}
+                            src={TYPEOFBUSINESSMATCHINGPLATFORM}
                             width={285}
                             height={285}
-                            alt="Press to Random"
+                            alt="Business Matching
+                            Platform"
                             style={{
                               width: '100%'
                             }}
                           />
                         </figure>
                         <div className="card-body p-5">
-                          <h3 className="fs-19 text-center text-main mb-0">Press to Random</h3>
+                          <h3 className="fs-19 text-center text-main mb-0">Business Matching Platform</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="project  col-md-6 col-xl-4">
+                      <div className=" h-100">
+                        <figure className="card-img-top rounded">
+                          <Image
+                            src={TYPEOFLEARNINGMANAGEMENTSYSTEM}
+                            width={285}
+                            height={285}
+                            alt="Learning Management System (LMS)"
+                            style={{
+                              width: '100%'
+                            }}
+                          />
+                        </figure>
+                        <div className="card-body p-5">
+                          <h3 className="fs-19 text-center text-main mb-0">Learning Management System (LMS)</h3>
                         </div>
                       </div>
                     </div>
@@ -480,7 +508,7 @@ const Page: FC = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </main>
 
       <FooterMain />

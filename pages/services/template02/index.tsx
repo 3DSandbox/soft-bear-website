@@ -116,7 +116,7 @@ const Page: FC = () => {
           }}
         > */}
 
-        {/* v มือถือ */}
+        {/* v pc */}
         <section
           className="wrapper bg-image  d-md-none rounded"
           data-aos="zoom-up"
@@ -152,7 +152,7 @@ const Page: FC = () => {
           </div>
         </section>
 
-        {/* v pc */}
+        {/* v phone */}
         <section
           className="wrapper bg-image d-none d-md-block rounded"
           data-aos="zoom-up"
@@ -167,7 +167,8 @@ const Page: FC = () => {
                 <h2
                   className="display-1 text-white text-uppercase mt-10 mt-lg-4"
                   style={{
-                    width: 'auto'
+                    width: 'auto',
+                    padding: '2rem'
                   }}
                 >
                   AI Training
@@ -281,7 +282,7 @@ const Page: FC = () => {
         <section>
           <div className="container p-7">
             <div className="row">
-              <div className="col-6 bg-">
+              <div className="col-6 ">
                 <h2 className=" text-main">บริการของเรา</h2>
                 <p className='mt-5 fs-18'>
                   รับเทรน AI ตามความต้องการของลูกค้า โดยสามารถพัฒนาร่วมไปกับระบบอื่นที่ต้องการ

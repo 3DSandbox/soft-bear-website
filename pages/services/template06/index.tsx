@@ -11,7 +11,14 @@ import {
   IC_INTERACTIVEHARDWARE,
   IC_REACHTHETARGETHARDWARE,
   IMG_HARDWARE,
-  SOFTBEARBANNER01
+  SOFTBEARBANNER01,
+  TYPEOFAPPLICATIONDEVELOPMENT,
+  TYPEOFBUSINESSMATCHINGPLATFORM,
+  TYPEOFLEARNINGMANAGEMENTSYSTEM,
+  TYPEOFPRESSTOPLAY,
+  TYPEOFPRESSTORANDOM,
+  TYPEOFWEBDEVELOPMENT,
+  TYPEOFZEOSCOPE
 } from 'assets';
 import Head from 'next/head';
 import { servicesType } from 'data/Soft-Bear/Services/dataList';
@@ -131,7 +138,10 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  Web Application
+                  LMS
+                  <br />
+                  Empowering Learning,
+                  <br /> Unleashing Potential
                 </h2>
               </div>
 
@@ -164,11 +174,13 @@ const Page: FC = () => {
                 <h2
                   className="display-1 text-white text-uppercase mt-10 mt-lg-4"
                   style={{
-                    width: 'auto',
-                    padding: '2rem'
+                    width: 'auto'
                   }}
                 >
-                  Web Application
+                  LMS
+                  <br />
+                  Empowering Learning,
+                  <br /> Unleashing Potential
                 </h2>
               </div>
 
@@ -196,7 +208,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Web Application for every solution
+                  ระบบการเรียนการสอนออนไลน์ สำหรับองค์กร หน่วยงานและสถาบันการศึกษา
                 </h1>
 
                 {/*header v pc */}
@@ -206,7 +218,7 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  Web Application for every solution
+                  ระบบการเรียนการสอนออนไลน์ สำหรับองค์กร หน่วยงานและสถาบันการศึกษา
                 </h1>
 
                 <div
@@ -215,25 +227,39 @@ const Page: FC = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                    {/* v phone */}
+                  {/* v phone */}
                   <p className="fs-18 d-md-none">
-                  เว็บแอปพลิเคชัน หรือที่เรียกง่ายๆ ว่า "เว็บแอป" คือแอปพลิเคชันซอฟต์แวร์หรือโปรแกรมที่สามารถเข้าถึงได้และทำงานภายในเว็บเบราว์เซอร์ 
-สามารถมีการประมวลผลได้อย่างมีประสิทธิภาพเช่นเดียวกับการทำงานของโปรแกรม มีการสั่งงานที่ซับซ้อน สามารถมีการทำงานผ่าน cloud เพื่อการเก็บและเข้าถึงข้อมูลได้จากทุกที่
-
+                    ระบบ LMS สามารถนำไปประยุกต์ได้หลากหลายเช่น หน่วยงานราชการ ศูนย์ฝึกอบรม หรือบริษัทเอกชน
+                    เพื่อส่งต่อความรู้ต่างๆภายในองค์กรทำให้การทำงานมีประสิทธิภาพมากขึ้น
+                    <ul>
+                      <li>เป็นการสร้างศูนย์กลางการเรียนรู้เพื่อกระจายความรู้</li>
+                      <li>ทำให้ทุกคนได้รับความรู้ที่มีมาตราฐานเดียวกัน </li>
+                      <li>สามารถเข้าถึงได้ทุกที่ทุกเวลาและทุกอุปกรณ์ </li>
+                      <li>LMS เป็นการเรียนการสอนที่ประหยัด เมื่อเปรียบเทียบกับ Onsite</li>
+                      <li>สามารถปรับเปลี่ยนได้ตามความต้องการ</li>
+                    </ul>
                   </p>
 
                   {/* v pc */}
                   <p className="fs-18 d-none d-md-block mt-2">
-                  เว็บแอปพลิเคชัน หรือที่เรียกง่ายๆ ว่า "เว็บแอป" คือแอปพลิเคชันซอฟต์แวร์หรือโปรแกรมที่สามารถเข้าถึงได้และทำงานภายในเว็บเบราว์เซอร์ 
-สามารถมีการประมวลผลได้อย่างมีประสิทธิภาพเช่นเดียวกับการทำงานของโปรแกรม มีการสั่งงานที่ซับซ้อน สามารถมีการทำงานผ่าน cloud เพื่อการเก็บและเข้าถึงข้อมูลได้จากทุกที่
-
+                    ระบบ LMS สามารถนำไปประยุกต์ได้หลากหลายเช่น หน่วยงานราชการ ศูนย์ฝึกอบรม หรือบริษัทเอกชน
+                    เพื่อส่งต่อความรู้ต่างๆภายในองค์กรทำให้การทำงานมีประสิทธิภาพมากขึ้น
+                    <ul>
+                      <li>เป็นการสร้างศูนย์กลางการเรียนรู้เพื่อกระจายความรู้</li>
+                      <li>ทำให้ทุกคนได้รับความรู้ที่มีมาตราฐานเดียวกัน </li>
+                      <li>สามารถเข้าถึงได้ทุกที่ทุกเวลาและทุกอุปกรณ์ </li>
+                      <li>LMS เป็นการเรียนการสอนที่ประหยัด เมื่อเปรียบเทียบกับ Onsite</li>
+                      <li>สามารถปรับเปลี่ยนได้ตามความต้องการ</li>
+                    </ul>
                   </p>
                   <p className="fs-18 d-none d-md-block mt-2">
-                  เว็บแอปพลิเคชันนั้นได้รับความนิยมเพิ่มมากขึ้นเนื่องจากไม่ขึ้นอยู่กับแพลตฟอร์มและสามารถเข้าถึงได้จากอุปกรณ์ต่าง ๆ ที่มีการเชื่อมต่ออินเทอร์เน็ต รวมถึงคอมพิวเตอร์ สมาร์ทโฟน และแท็บเล็ต
+                    นอกจากนี้ เรามีทีมกราฟิกที่สามารถเนรมิต Info-graphic
+                    เพื่อสรุปข้อมูลที่เข้าใจยากให้เป็นเรื่องที่ง่ายได้ รวมทั้งมี Gamification
+                    เพื่อเปลี่ยนเรื่องที่น่าเบื่อให้น่าสนใจได้ ทำให้ผู้เรียนสนุกกับการเรียน
                   </p>
 
                   <p className="fs-18 d-none d-md-block mt-2">
-
+                    ทีมงานพัฒนาที่ครบวงจร ให้คำปรึกษาแนะนำ รวมทั้งออกแบบ เพื่อให้ตอบโจทย์การใช้งาน
                   </p>
                 </div>
               </div>
@@ -258,8 +284,13 @@ const Page: FC = () => {
               </div>
               {/* v phone */}
               <p className="fs-18 col-12 col-md-6 mt-7 mt-md-0 d-md-none">
-              เว็บแอปพลิเคชันนั้นได้รับความนิยมเพิ่มมากขึ้นเนื่องจากไม่ขึ้นอยู่กับแพลตฟอร์มและสามารถเข้าถึงได้จากอุปกรณ์ต่าง ๆ ที่มีการเชื่อมต่ออินเทอร์เน็ต รวมถึงคอมพิวเตอร์ สมาร์ทโฟน และแท็บเล็ต
-                            </p>
+                นอกจากนี้ เรามีทีมกราฟิกที่สามารถเนรมิต Info-graphic เพื่อสรุปข้อมูลที่เข้าใจยากให้เป็นเรื่องที่ง่ายได้
+                รวมทั้งมี Gamification เพื่อเปลี่ยนเรื่องที่น่าเบื่อให้น่าสนใจได้ ทำให้ผู้เรียนสนุกกับการเรียน
+              </p>
+
+              <p className="fs-18 col-12 col-md-6 mt-7 mt-md-0 d-md-none">
+                ทีมงานพัฒนาที่ครบวงจร ให้คำปรึกษาแนะนำ รวมทั้งออกแบบ เพื่อให้ตอบโจทย์การใช้งาน
+              </p>
             </div>
           </div>
         </section>
@@ -272,7 +303,7 @@ const Page: FC = () => {
         </section> */}
 
         <div className="container">
-          <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Why Web Application</h2>
+          <h2 className="display-3 text-main mt-10 mt-md-3 text-center">Features</h2>
           <hr
             className="p-0 "
             style={{
@@ -296,12 +327,8 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Accessibility</h3>
-                <p className="fs-18 mx-3">
-                เข้าถึงได้ผ่านเว็บเบราว์เซอร์ ผู้ใช้สามารถใช้แอปพลิเคชันได้
-จากทุกที่ที่มีการเชื่อมต่อ
-อินเทอร์เน็ต ไม่จำเป็นต้องดาวน์โหลด หรือติดตั้งเว็บแอปพลิเคชัน
-                </p>
+                <h3 className="fs-22 text-main">เรียนได้ทุกที่ ทุกเวลา</h3>
+                <p className="fs-18 mx-3">ใช้ได้ทุกอุปกรณ์ ทุกเวลา เนื่องจากเป็น Web based App</p>
               </div>
 
               {/* ic02 */}
@@ -313,9 +340,9 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Platform Independence</h3>
+                <h3 className="fs-22 text-main">ระบบสมาชิก</h3>
                 <p className="fs-18 mx-3">
-                การใช้งานไม่ได้ขึ้นอยู่กับกับระบบปฏิบัติ การหรืออุปกรณ์เฉพาะ สามารถใช้บน Windows, macOS, Linux, Android, iOS และแพลตฟอร์มอื่น ๆ โดยไม่ต้องดัดแปลง
+                  สำหรับผู้สอนและผู้เรียน สามารถลงทะเบียนได้จาก Social media หรือ ระบบ Register
                 </p>
               </div>
 
@@ -328,10 +355,8 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Work on Cloud</h3>
-                <p className="fs-18 mx-3">
-                การใช้งานข้อมูลบน cloud ซึ่งมีข้อได้เปรียบมากมาย ไม่ว่าจะเป็นการเข้าถึงได้จากทุกที่ การอัพเดทข้อมูลที่เป็นข้อมูลชุดเดียวกันตลอดเวลา ไปจนถึงความปลอดภัยในการเก็บข้อมูล
-                </p>
+                <h3 className="fs-22 text-main">ถามตอบกับอาจารย์ได้</h3>
+                <p className="fs-18 mx-3">ระบบสื่อสารกับผู้สอนทำให้ผู้เรียนสามารถส่ง ข้อความส่วนตัวไปยังผู้สอนได้</p>
               </div>
 
               {/* ic04 */}
@@ -343,11 +368,8 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Dynamic Content</h3>
-                <p className="fs-18 mx-3">
-                สามารถแสดงเนื้อหาอย่างยืดหยุ่น
-การแก้ไขเนื้อหาและตอบสนองต่อผู้ใช้สามารถทำได้แบบ realtime 
-                </p>
+                <h3 className="fs-22 text-main">ระบบประกาศนียบัตร</h3>
+                <p className="fs-18 mx-3">เมื่อจบคอร์ส สามารถออกประกาศนียบัตรได้ อัตโนมัติ</p>
               </div>
 
               {/* ic05 */}
@@ -359,13 +381,8 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">
-                Interactivity:
-                </h3>
-                <p className="fs-18 mx-3">
-                สามารถรถโต้ตอบได้แบบ realtime และตอบโจทย์การโต้ตอบได้
-มากมาย หลากหลายรูปแบบ 
-                </p>
+                <h3 className="fs-22 text-main">ข้อมูล-ประวัติการเรียน</h3>
+                <p className="fs-18 mx-3">เก็บทุกข้อมูลเพื่อจัดทำรายงาน ของผู้เรียน รวมทั้งสามารถ export ข้อมูลได้</p>
               </div>
 
               {/* ic06 */}
@@ -377,19 +394,69 @@ const Page: FC = () => {
                     color: '#737373'
                   }}
                 ></h3>
-                <h3 className="fs-22 text-main">Security</h3>
-                <p className="fs-18 mx-3">
-                มีความปลิดภัยที่เป็นที่ยอมรับโดยทั่วไป เช่น การส่งข้อมูลที่ปลอดภัย (HTTPS) การตรวจสอบสิทธิ์ และการอนุญาต แลพการปกป้องข้อมูลผู้ใช้
-                </p>
+                <h3 className="fs-22 text-main">ระบบจัดการเรียนการสอน</h3>
+                <p className="fs-18 mx-3">ผู้สอนสามารถจัดการหลักสูตรได้อย่างง่ายดาย</p>
+              </div>
+
+              {/* ic07 */}
+              <div className="col-md-6 col-lg-3 col-xl-3 col-xxl-4 text-center mt-10">
+                <Image src={IC_REACHTHETARGETHARDWARE} width={128} height={128} draggable={false} alt="Coding" />
+                <h3
+                  className="mb-3 mt-3"
+                  style={{
+                    color: '#737373'
+                  }}
+                ></h3>
+                <h3 className="fs-22 text-main">ระบบประเมินผลการเรียนการสอน</h3>
+                <p className="fs-18 mx-3">ติดตาม ประเมินผล รวมทั้งสามารถกำหนดเกณฑ์ ที่ผ่านได้ </p>
+              </div>
+
+              {/* ic08 */}
+              <div className="col-md-6 col-lg-3 col-xl-3 col-xxl-4 text-center mt-10">
+                <Image src={IC_REACHTHETARGETHARDWARE} width={128} height={128} draggable={false} alt="Coding" />
+                <h3
+                  className="mb-3 mt-3"
+                  style={{
+                    color: '#737373'
+                  }}
+                ></h3>
+                <h3 className="fs-22 text-main">Dashboard</h3>
+                <p className="fs-18 mx-3">Dashboard สรุปข้อมูลได้อย่างเข้าใจง่าย ครบถ้วน</p>
+              </div>
+
+              {/* ic09 */}
+              <div className="col-md-6 col-lg-3 col-xl-3 col-xxl-4 text-center mt-10">
+                <Image src={IC_REACHTHETARGETHARDWARE} width={128} height={128} draggable={false} alt="Coding" />
+                <h3
+                  className="mb-3 mt-3"
+                  style={{
+                    color: '#737373'
+                  }}
+                ></h3>
+                <h3 className="fs-22 text-main">Integration</h3>
+                <p className="fs-18 mx-3">เชื่อมต่อกับระบบ Authentication ภายนอกได้</p>
+              </div>
+
+              {/* ic10 */}
+              <div className="col-md-6 col-lg-3 col-xl-3 col-xxl-4 text-center mt-10">
+                <Image src={IC_REACHTHETARGETHARDWARE} width={128} height={128} draggable={false} alt="Coding" />
+                <h3
+                  className="mb-3 mt-3"
+                  style={{
+                    color: '#737373'
+                  }}
+                ></h3>
+                <h3 className="fs-22 text-main">AR + Gamification</h3>
+                <p className="fs-18 mx-3">ระบบ AR และ Gamification </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* <section>
+        <section>
           <div className="container">
             <div className="mt-10 mt-md-3">
-              <h2 className="display-3 text-main text-center">Type of Hardware Development</h2>
+              <h2 className="display-3 text-main text-center">Type of Software Development</h2>
               <hr
                 className="p-0 "
                 style={{
@@ -403,62 +470,79 @@ const Page: FC = () => {
               <div className="grid grid-view projects-masonry">
                 <div className="container">
                   <div className="row g-8 g-lg-10 mt-1  justify-content-center">
-                  
                     <div className="project  col-md-6 col-xl-4">
                       <div className=" h-100">
                         <figure className="card-img-top rounded">
                           <Image
-                            src={TYPEOFZEOSCOPE}
+                            src={TYPEOFAPPLICATIONDEVELOPMENT}
                             width={285}
                             height={285}
-                            alt="Zeoscope"
+                            alt="Application Development"
                             style={{
                               width: '100%'
                             }}
                           />
                         </figure>
                         <div className="card-body p-5">
-                          <h3 className="fs-19 text-center text-main mb-0">Zeoscope</h3>
+                          <h3 className="fs-19 text-center text-main mb-0">Application Development</h3>
                         </div>
                       </div>
                     </div>
 
-                 
                     <div className="project  col-md-6 col-xl-4">
                       <div className="h-100">
                         <figure className="card-img-top rounded">
                           <Image
-                            src={TYPEOFPRESSTOPLAY}
+                            src={TYPEOFWEBDEVELOPMENT}
                             width={285}
                             height={285}
-                            alt="Press to Play"
+                            alt="Web Development"
                             style={{
                               width: '100%'
                             }}
                           />
                         </figure>
                         <div className="card-body p-5">
-                          <h3 className="fs-19 text-center text-main mb-0">Press to Play</h3>
+                          <h3 className="fs-19 text-center text-main mb-0">Web Development</h3>
                         </div>
                       </div>
                     </div>
 
-                 
                     <div className="project  col-md-6 col-xl-4">
                       <div className=" h-100">
                         <figure className="card-img-top rounded">
                           <Image
-                            src={TYPEOFPRESSTORANDOM}
+                            src={TYPEOFBUSINESSMATCHINGPLATFORM}
                             width={285}
                             height={285}
-                            alt="Press to Random"
+                            alt="Business Matching
+                            Platform"
                             style={{
                               width: '100%'
                             }}
                           />
                         </figure>
                         <div className="card-body p-5">
-                          <h3 className="fs-19 text-center text-main mb-0">Press to Random</h3>
+                          <h3 className="fs-19 text-center text-main mb-0">Business Matching Platform</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="project  col-md-6 col-xl-4">
+                      <div className=" h-100">
+                        <figure className="card-img-top rounded">
+                          <Image
+                            src={TYPEOFLEARNINGMANAGEMENTSYSTEM}
+                            width={285}
+                            height={285}
+                            alt="Learning Management System (LMS)"
+                            style={{
+                              width: '100%'
+                            }}
+                          />
+                        </figure>
+                        <div className="card-body p-5">
+                          <h3 className="fs-19 text-center text-main mb-0">Learning Management System (LMS)</h3>
                         </div>
                       </div>
                     </div>
@@ -467,7 +551,7 @@ const Page: FC = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </main>
 
       <FooterMain />
