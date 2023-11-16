@@ -80,20 +80,16 @@ const Page: FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>3DTV-Tech</title>
+        <title>Mobile Application</title>
         <meta
           name="description"
-          content="บบริษัท 3DTV-Tech บริการของเรามีรายละเอียดโดยจะแบ่งตามหัวข้อย่อยจากหัวข้อใหญ่ที่ถูกแบ่งเป็นหมวดต่าง ๆ เพื่อให้ตรงกับความต้องการธุรกิจของคุณ"
+          content="บริษัท Soft-Bear เรามีประสบการณ์และเพรียบพร้อมสำหรับการให้บริการพัฒนาแอปพลิเคชัน ลงใน platform ต่าง ๆ "
         />
         <meta
           name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, ธุรกิจสื่อสมัยใหม่, สื่อสมัยใหม่ ,บริษัท New media, ธุรกิจ online business, งานอีเว้นท์, งาน Event , บริการสื่อมัลติมีเดีย, บริการพัฒนาสื่อ interactive , บริการพัฒนา Software, บริการพัฒนา Hardware, บริการดูแลและพัฒนาระบบ, พัฒนาระบบ front end, Application Development, พัฒนาระบบ back end, Interactive media, Microsite, Webpage, Development New media, Development Interactive, Software development, Hardware development, Info graphics, motion graphics, Event Service, Virtual Experience"
+          content="บริการพัฒนา mobile application, mobile application development, mobile application, โมบายแอปพลิเคชัน, รับทำแอปพลิเคชัน, รับพัฒนาแอปพลิเคชัน, บริการพัฒนา application"
         />
-        <meta
-          name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, ธุรกิจสื่อสมัยใหม่, สื่อสมัยใหม่ ,บริษัท New media, ธุรกิจ online business, งานอีเว้นท์, งาน Event , บริการสื่อมัลติมีเดีย, บริการพัฒนาสื่อ interactive , บริการพัฒนา Software, บริการพัฒนา Hardware, บริการดูแลและพัฒนาระบบ, พัฒนาระบบ front end, Application Development, พัฒนาระบบ back end, Interactive media, Microsite, Webpage, Development New media, Development Interactive, Software development, Hardware development, Info graphics, motion graphics, Event Service, Virtual Experience"
-        />
-        <meta name="author" content="3DTV-Tech" />
+        <meta name="author" content="Soft-Bear" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
