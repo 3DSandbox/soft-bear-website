@@ -80,20 +80,16 @@ const Page: FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>3DTV-Tech</title>
+        <title>IOT - Internet of things</title>
         <meta
           name="description"
-          content="บบริษัท 3DTV-Tech บริการของเรามีรายละเอียดโดยจะแบ่งตามหัวข้อย่อยจากหัวข้อใหญ่ที่ถูกแบ่งเป็นหมวดต่าง ๆ เพื่อให้ตรงกับความต้องการธุรกิจของคุณ"
+          content="บริษัท Soft-Bear ของเรามีบริการและการจัดการด้าน iot เพื่อเป็น solution ให้แก่ธุรกิจของคุณ"
         />
         <meta
           name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, ธุรกิจสื่อสมัยใหม่, สื่อสมัยใหม่ ,บริษัท New media, ธุรกิจ online business, งานอีเว้นท์, งาน Event , บริการสื่อมัลติมีเดีย, บริการพัฒนาสื่อ interactive , บริการพัฒนา Software, บริการพัฒนา Hardware, บริการดูแลและพัฒนาระบบ, พัฒนาระบบ front end, Application Development, พัฒนาระบบ back end, Interactive media, Microsite, Webpage, Development New media, Development Interactive, Software development, Hardware development, Info graphics, motion graphics, Event Service, Virtual Experience"
+          content="solution iot, บริการ iot , รับทำ iot , iot, internet of things, sevice iot, ไอโอที, อินเทอร์เน็ตออฟติง, อินเตอร์เน็ตออฟติง, ธุรกิจ iot"
         />
-        <meta
-          name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, ธุรกิจสื่อสมัยใหม่, สื่อสมัยใหม่ ,บริษัท New media, ธุรกิจ online business, งานอีเว้นท์, งาน Event , บริการสื่อมัลติมีเดีย, บริการพัฒนาสื่อ interactive , บริการพัฒนา Software, บริการพัฒนา Hardware, บริการดูแลและพัฒนาระบบ, พัฒนาระบบ front end, Application Development, พัฒนาระบบ back end, Interactive media, Microsite, Webpage, Development New media, Development Interactive, Software development, Hardware development, Info graphics, motion graphics, Event Service, Virtual Experience"
-        />
-        <meta name="author" content="3DTV-Tech" />
+        <meta name="author" content="Soft-Bear" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -113,7 +109,7 @@ const Page: FC = () => {
           }}
         > */}
 
-        {/* v pc */}
+        {/* v phone */}
         <section
           className="wrapper bg-image  d-md-none rounded"
           data-aos="zoom-up"
@@ -124,12 +120,12 @@ const Page: FC = () => {
         >
           <div className="container text-center">
             <div className="row">
-              <div className="col-lg-10 col-xxl-8 ">
+              <div className="col-lg-10 col-xxl-8">
                 <h2
-                  className="display-1 text-white text-uppercase mt-10"
+                  className="display-1 text-white text-uppercase"
                   style={{
                     width: 'auto',
-                   
+                    marginTop: '11.5rem'
                   }}
                 >
                   IoT - Internet of Things
@@ -150,7 +146,7 @@ const Page: FC = () => {
           </div>
         </section>
 
-        {/* v phone */}
+        {/* v pc */}
         <section
           className="wrapper bg-image d-none d-md-block rounded"
           data-aos="zoom-up"
@@ -166,7 +162,7 @@ const Page: FC = () => {
                   className="display-1 text-white text-uppercase mt-10 mt-lg-4"
                   style={{
                     width: 'auto',
-                    padding: '2rem'
+                    padding: '2rem',
                   }}
                 >
                   IoT - Internet of Things

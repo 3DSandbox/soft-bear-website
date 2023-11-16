@@ -113,7 +113,7 @@ const Page: FC = () => {
           }}
         > */}
 
-        {/* v pc */}
+        {/* v phone */}
         <section
           className="wrapper bg-image  d-md-none rounded"
           data-aos="zoom-up"
@@ -126,9 +126,10 @@ const Page: FC = () => {
             <div className="row">
               <div className="col-lg-10 col-xxl-8 ">
                 <h2
-                  className="display-1 text-white text-uppercase mt-13"
+                  className="display-1 text-white text-uppercase "
                   style={{
-                    width: 'auto'
+                    width: 'auto',
+                    marginTop: '11.5rem'
                   }}
                 >
                   Web Application
@@ -149,7 +150,7 @@ const Page: FC = () => {
           </div>
         </section>
 
-        {/* v phone */}
+        {/* v pc */}
         <section
           className="wrapper bg-image d-none d-md-block rounded"
           data-aos="zoom-up"

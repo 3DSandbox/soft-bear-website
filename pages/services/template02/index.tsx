@@ -83,20 +83,16 @@ const Page: FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>3DTV-Tech</title>
+        <title>AI Training</title>
         <meta
           name="description"
-          content="บบริษัท 3DTV-Tech บริการของเรามีรายละเอียดโดยจะแบ่งตามหัวข้อย่อยจากหัวข้อใหญ่ที่ถูกแบ่งเป็นหมวดต่าง ๆ เพื่อให้ตรงกับความต้องการธุรกิจของคุณ"
+          content="บริษัท Soft-Bear มีบริการเตรียมพร้อมในด้านของการฝึกฝน ai ต่าง ๆ เพื่อใช้งานให้ตรงกับจุดประสงค์ของคุณ"
         />
         <meta
           name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, ธุรกิจสื่อสมัยใหม่, สื่อสมัยใหม่ ,บริษัท New media, ธุรกิจ online business, งานอีเว้นท์, งาน Event , บริการสื่อมัลติมีเดีย, บริการพัฒนาสื่อ interactive , บริการพัฒนา Software, บริการพัฒนา Hardware, บริการดูแลและพัฒนาระบบ, พัฒนาระบบ front end, Application Development, พัฒนาระบบ back end, Interactive media, Microsite, Webpage, Development New media, Development Interactive, Software development, Hardware development, Info graphics, motion graphics, Event Service, Virtual Experience"
+          content="ฝึก ai, รับฝึก ai, รับ train ai, บริการ train ai, ai training, รับเทรนด์เอไอ"
         />
-        <meta
-          name="keyword"
-          content="3dtvtech, สามดีทีวีเทค, ธุรกิจสื่อสมัยใหม่, สื่อสมัยใหม่ ,บริษัท New media, ธุรกิจ online business, งานอีเว้นท์, งาน Event , บริการสื่อมัลติมีเดีย, บริการพัฒนาสื่อ interactive , บริการพัฒนา Software, บริการพัฒนา Hardware, บริการดูแลและพัฒนาระบบ, พัฒนาระบบ front end, Application Development, พัฒนาระบบ back end, Interactive media, Microsite, Webpage, Development New media, Development Interactive, Software development, Hardware development, Info graphics, motion graphics, Event Service, Virtual Experience"
-        />
-        <meta name="author" content="3DTV-Tech" />
+        <meta name="author" content="Soft-Bear" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -116,7 +112,7 @@ const Page: FC = () => {
           }}
         > */}
 
-        {/* v pc */}
+        {/* v phone */}
         <section
           className="wrapper bg-image  d-md-none rounded"
           data-aos="zoom-up"
@@ -129,9 +125,10 @@ const Page: FC = () => {
             <div className="row">
               <div className="col-lg-10 col-xxl-8 ">
                 <h2
-                  className="display-1 text-white text-uppercase mt-13"
+                  className="display-1 text-white text-uppercase"
                   style={{
-                    width: 'auto'
+                    width: 'auto',
+                    marginTop: '12.0rem'
                   }}
                 >
                   AI Training
@@ -152,7 +149,7 @@ const Page: FC = () => {
           </div>
         </section>
 
-        {/* v phone */}
+        {/* v pc */}
         <section
           className="wrapper bg-image d-none d-md-block rounded"
           data-aos="zoom-up"
@@ -282,7 +279,7 @@ const Page: FC = () => {
         <section>
           <div className="container p-7">
             <div className="row">
-              <div className="col-6 ">
+              <div className="col-12 d-md-none">
                 <h2 className=" text-main">บริการของเรา</h2>
                 <p className='mt-5 fs-18'>
                   รับเทรน AI ตามความต้องการของลูกค้า โดยสามารถพัฒนาร่วมไปกับระบบอื่นที่ต้องการ
@@ -291,8 +288,7 @@ const Page: FC = () => {
                 </p>
               </div>
          
-              <div className="col-6 d-flex justify-content-center align-items-center">
-
+              <div className="col-12 d-md-none d-flex justify-content-center align-items-center">
               <button type="button" className="btn" style={{
                 backgroundColor: '#FF8812',
                 color: 'white'
@@ -300,6 +296,28 @@ const Page: FC = () => {
               </button>
                 
               </div>
+          
+          {/* v pc  */}
+          <div className="col-6 d-none d-md-block ">
+                <h2 className=" text-main">บริการของเรา</h2>
+                <p className='mt-5 fs-18'>
+                  รับเทรน AI ตามความต้องการของลูกค้า โดยสามารถพัฒนาร่วมไปกับระบบอื่นที่ต้องการ
+                  สามารถออกไปร่วมกับระบบเพื่อการใช้งานต่อ เช่น มีcommand เพิ่มเติมเพื่อสั่งงานจนจบ process
+                  ทั้งหมดที่ลูกค้าต้องการ มี Dashboard สรุปผล และรายงานสถิติที่ต้องการ{' '}
+                </p>
+              </div>
+         
+              <div className="col-6 d-none d-md-block  d-flex justify-content-center align-items-center">
+              <button type="button" className="btn" style={{
+                backgroundColor: '#FF8812',
+                color: 'white'
+              }}>ติดต่อเรา
+              </button>
+                
+              </div>
+          
+              
+          
             </div>
           </div>
         </section>
