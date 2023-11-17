@@ -90,11 +90,11 @@ const Page: FC = () => {
         <title>LMS Empowering learning, Unleashing potential</title>
         <meta
           name="description"
-          content="บริษัท Soft-Bear "
+          content="บริษัท Soft-Bear ได้มีบริการสำหรับการจัดทำ Learning Management System (LMS) หรือระบบการจัดการเรียนการสอนสำหรับนำไปประยุกต์ใช้ในหลากหลายรูปแบบ เช่น บริษัทเอกชน หน่วยงานราชการ ศูนย์ฝึกอบรม"
         />
         <meta
           name="keyword"
-          content=""
+          content="บริการจัดทำระบบการเรียนการสอน, รับทำระบบการเรียนการสอน, จัดทำ lms, บริการจัดทำ lms, รับพัฒนา lms"
         />
         <meta name="author" content="Soft-Bear" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
