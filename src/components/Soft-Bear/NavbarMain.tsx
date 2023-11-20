@@ -90,7 +90,8 @@ const NavbarMain: FC<NavbarProps> = (props) => {
             <li className="nav-item ">
               <Link href="/" className="nav-link m-0 px-5 fs-22 d-md-none ">
                 <div className="d-flex align-items-center gap-3 " style={{
-                  color: "#FF8812"
+                  color: "#FF8812",
+                  fontWeight: 450
                 }}>
                   <Icon icon="mingcute:home-3-fill" width="25" />
                   Home
@@ -100,7 +101,8 @@ const NavbarMain: FC<NavbarProps> = (props) => {
               <Link href="/" className="nav-link m-0 px-5 d-none d-md-block " 
               style={{
                 fontSize:"18px",
-                color: "#FF8812"
+                color: "#FF8812",
+                fontWeight: 450
                 }}>
                 Home
               </Link>
@@ -109,7 +111,8 @@ const NavbarMain: FC<NavbarProps> = (props) => {
             <li className="nav-item">
               <Link href="/services" className="nav-link  px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3"   style={{
-                    color: "#FF8812"
+                    color: "#FF8812",
+                    fontWeight: 450
                   }}>
                   <Icon icon="ic:baseline-miscellaneous-services" width="25" 
                 />
@@ -117,7 +120,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
                 </div>
               </Link>
 
-              <Link href="/services" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
+              <Link href="/services" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812", fontWeight: 450}}>
                 Services
               </Link>
             </li>
@@ -125,27 +128,28 @@ const NavbarMain: FC<NavbarProps> = (props) => {
             <li className="nav-item">
               <Link href="#" className="nav-link m-0 px-5 fs-22 d-md-none">
                 <div className="d-flex align-items-center gap-3" style={{
-                  color: "#FF8812" 
+                  color: "#FF8812",
+                  fontWeight: 450 
                 }}>
                   <Icon icon="mdi:blogger" width="25" />
                   Case Study
                 </div>
               </Link>
 
-              <Link href="#" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
+              <Link href="#" className="nav-link m-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812", fontWeight: 450}}>
               Case Study
               </Link>
             </li>
 
             <li className="nav-item">
               <Link href="#" className="nav-link px-5 fs-22 d-md-none">
-                <div className="d-flex align-items-center gap-3" style={{color:"#FF8812"}}>
+                <div className="d-flex align-items-center gap-3" style={{color:"#FF8812", fontWeight: 450}}>
                   <Icon icon="material-symbols:info" width="25" />
                 Contact
                 </div>
               </Link>
 
-              <Link href="#" className="nav-link pm-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812"}}>
+              <Link href="#" className="nav-link pm-0 px-5 d-none d-md-block" style={{fontSize:"18px", color: "#FF8812", fontWeight: 450}}>
               Contact
               </Link>
            </li>

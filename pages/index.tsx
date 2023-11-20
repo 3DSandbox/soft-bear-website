@@ -54,7 +54,10 @@ const Home: NextPage = () => {
 
       {/* ========== header ========== */}
       <header className="wrapper ">
-        <NavbarMain navClassName="navbar navbar-expand-lg center-nav  position-absolute bg-white "></NavbarMain>
+        
+        <NavbarMain 
+        navOtherClass="navbar-other ms-lg-4"
+        navClassName="navbar navbar-expand-lg center-nav  position-absolute bg-white "></NavbarMain>
       </header>
 
       {/* ========== main content ========== */}
