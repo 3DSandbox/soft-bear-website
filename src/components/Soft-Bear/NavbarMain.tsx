@@ -73,7 +73,7 @@ const NavbarMain: FC<NavbarProps> = (props) => {
         data-bs-scroll="true"
         className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
         style={{
-          backgroundColor: '#3175D1'
+          backgroundColor: '#FFFF'
         }}
       >
         <div className="offcanvas-header d-lg-none gap-3">

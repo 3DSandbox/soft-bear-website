@@ -25,7 +25,9 @@ const BannerMain: FC = () => {
             <div className="container h-100">
               <div className="row h-100">
                 <div className="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-9 text-center text-lg-start justify-content-center align-self-center align-items-start">
-                  <p className="display-1 text-uppercase fs-56 mb-4 text-white text-upper-cease animate__animated animate__slideInDown animate__delay-1s">
+                  <p className="display-1 fs-46 mb-4 text-white text-upper-cease animate__animated animate__slideInDown animate__delay-1s" style={{
+                    paddingLeft: '4rem'
+                  }}>
                   software solution for all
                   </p>
 
