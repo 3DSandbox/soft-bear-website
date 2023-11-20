@@ -90,11 +90,11 @@ const Page: FC = () => {
         <title>Soft-Bear</title>
         <meta
           name="description"
-          content="บริษัท Soft-Bear "
+          content="บริษัท Soft-Bear พร้อมให้บริการในการจัดทำ Business Matching เพื่อเปิดโอกาสและเป็นสะพานเชื่อมเพิ่มโอกาสให้กับธุรกิจ"
         />
         <meta
           name="keyword"
-          content=""
+          content="รับพัฒนา business matching, บริการพัฒนา business matching, จัดทำ business matching, บริการจัดทำระบบการเจรจาทางธุรกิจ, รับทำระบบเจรจาทางธุรกิจ"
         />
         <meta name="author" content="Soft-Bear" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -135,7 +135,7 @@ const Page: FC = () => {
                     marginTop: '11.5rem'
                   }}
                 >
-                  Business Matching Find. Connect. Prosper.
+                  Business Matching <br/>Find. Connect. Prosper.
                 </h2>
               </div>
 
@@ -171,7 +171,7 @@ const Page: FC = () => {
                     width: 'auto'
                   }}
                 >
-                  Business Matching Find. Connect. Prosper.
+                  Business Matching <br/>Find. Connect. Prosper.
                 </h2>
               </div>
 

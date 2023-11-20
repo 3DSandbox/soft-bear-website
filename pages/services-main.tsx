@@ -1,9 +1,9 @@
 import { FC } from 'react';
-import ServicesCard from '../src/components/3DTVTech/Services/services-card';
+// import ServicesCard from '../src/components/3DTVTech/Services/services-card';
 // -------- hook -------- //
 import useTooltip from 'hooks/useTooltip';
 // -------- data -------- //
-import { servicesType } from 'data/3DTVTech/Services/dataList';
+// import { servicesType } from 'data/3DTVTech/Services/dataList';
 import { type } from 'os';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -82,6 +82,40 @@ const ServicesMain: FC = () => {
             </div>
           </div>
         </div>
+    
+            {/* 05 */}
+            <div className="project col-md-6 mb-5 col-xl-3">
+          <div className="d-flex flex-column shadow-lg h-100" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="ease">
+            <figure className="card-img-top">
+              <Link href='/services/reality-technology'>
+              <Image src={REALITY} width={285} height={285} alt="Reality Technology" />
+              </Link>
+            </figure>
+            <div className="card-body px-2 py-5 d-flex align-items-center justify-content-center">
+            <Link href='/services/reality-technology'>
+              <h2 className="fs-18 text-center text-main mb-0 text-uppercase">Reality Technology</h2>
+              </Link>
+            </div>
+          </div>
+        </div>
+    
+            {/* 06 */}
+            <div className="project col-md-6 mb-5 col-xl-3">
+          <div className="d-flex flex-column shadow-lg h-100" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="ease">
+            <figure className="card-img-top">
+              <Link href='/services/reality-technology'>
+              <Image src={REALITY} width={285} height={285} alt="Reality Technology" />
+              </Link>
+            </figure>
+            <div className="card-body px-2 py-5 d-flex align-items-center justify-content-center">
+            <Link href='/services/reality-technology'>
+              <h2 className="fs-18 text-center text-main mb-0 text-uppercase">Reality Technology</h2>
+              </Link>
+            </div>
+          </div>
+        </div>
+    
+    
       </div>
     </div>
 
